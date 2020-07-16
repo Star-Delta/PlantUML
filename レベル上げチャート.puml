@@ -1,0 +1,10 @@
+@startuml レベル上げチャート
+    [レベル上げチャート] as [Zero] lasts 0 days
+    --装備--
+
+    --モンスター--
+    [フェアリー] happens 13 day after [Zero]s end
+    [フェアリー] links to [[http://maplesonar.com/wiki/index.php?cmd=read&page=%E3%83%95%E3%82%A7%E3%82%A2%E3%83%AA%E3%83%BC&word=%E3%83%95%E3%82%A7%E3%82%A2%E3%83%AA%E3%83%BC]]
+    
+
+@enduml
