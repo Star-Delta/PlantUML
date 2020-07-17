@@ -1,10 +1,33 @@
 @startuml レベル上げチャート
-    [レベル上げチャート] as [Zero] lasts 0 days
-    --装備--
+    [魔職冒険者] as [Zero] lasts 0 days
 
-    --モンスター--
-    [フェアリー] happens 13 day after [Zero]s end
-    [フェアリー] links to [[http://maplesonar.com/wiki/index.php?cmd=read&page=%E3%83%95%E3%82%A7%E3%82%A2%E3%83%AA%E3%83%BC&word=%E3%83%95%E3%82%A7%E3%82%A2%E3%83%AA%E3%83%BC]]
+    [プロローグ] lasts 10 day and starts at [Zero]s end
+    [フェアリー狩り] lasts 24 day and starts 1 day before [プロローグ]s end and is colored in #ff8888
+    [ロイヤルフェアリー狩り] lasts 26 day and starts 1 day before [プロローグ]s end and is colored in #ff8888
+    [サージェンアイ狩り] lasts 30 day and is colored in #ff8888
+    [サージェンアイ狩り] starts 16 day before [フェアリー狩り]s end
+    [サージェンアイ狩り] starts 16 day before [ロイヤルフェアリー狩り]s end
+    [カッパードレイク狩り] lasts 41 day and starts 4 day before [サージェンアイ狩り]s end and is colored in #ff8888
+
+    --備考--
+    [【モンスター名】] happens 0 day after [Zero]s end and is colored in #ff8888
+    [【クエスト】] happens 0 day after [Zero]s end and is colored in #88ff88
+    [【装備】] happens 0 day after [Zero]s end and is colored in #8888ff
+    [ウッドシールド] happens 5 day after [Zero]s end and is colored in #8888ff
+    [1次転職] happens 10 day after [Zero]s end and is colored in #88ff88
+    [フェアリー] happens 13 day after [Zero]s end  and is colored in #ff8888
+    [ロイヤルフェアリー] happens 15 day after [Zero]s end and is colored in #ff8888
+    [サージェンアイ] happens 29 day after [Zero]s end and is colored in #ff8888
+    [2次転職] happens 30 day after [Zero]s end and is colored in #88ff88
+    [3次転職] happens 60 day after [Zero]s end and is colored in #88ff88
+    [カッパードレイク] happens 66 day after [Zero]s end and is colored in #ff8888
+
+
+    [4次転職] happens 100 day after [Zero]s end and is colored in #88ff88
+    [5次転職] happens 200 day after [Zero]s end and is colored in #88ff88
+
+
+
     
 
 @enduml
