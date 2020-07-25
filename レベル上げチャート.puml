@@ -1,30 +1,34 @@
 @startuml レベル上げチャート
-    [魔職冒険者] as [Zero] lasts 0 days
+    --見方--
+    [ ] as [Zero] lasts 0 days
+    [(#888888)] happens 0 day after [Zero]s end and is colored in #888888
+    [【装備】(#8888ff)] happens 0 day after [Zero]s end and is colored in #8888ff
+    [【クエスト】(#88ff88)] happens 0 day after [Zero]s end and is colored in #88ff88
+    [(#88ffff)] happens 0 day after [Zero]s end and is colored in #88ffff
+    [【モンスター名】(#ff8888)] happens 0 day after [Zero]s end and is colored in #ff8888
+    [(#ff88ff)] happens 0 day after [Zero]s end and is colored in #ff88ff
+    [(#ffff88)] happens 0 day after [Zero]s end and is colored in #ffff88
+    [Description(#ffffff)] happens 0 day after [Zero]s end and is colored in #ffffff
+    --イベント・クエスト--
+    [ウッドシールド] happens 5 day after [Zero]s end and is colored in #8888ff
+    [1次転職] happens 10 day after [Zero]s end and is colored in #88ff88
+    [フェアリー] happens 13 day after [Zero]s end and is colored in #ff8888  and links to [[https://google.com]]
+    [ロイヤルフェアリー] happens 15 day after [Zero]s end and is colored in #ff8888
+    [サージェンアイ] happens 29 day after [Zero]s end and is colored in #ff8888
+    [2次転職] happens 30 day after [Zero]s end and is colored in #88ff88
+    [3次転職] happens 60 day after [Zero]s end and is colored in #88ff88
+    [カッパードレイク] happens 66 day after [Zero]s end and is colored in #ff8888
+    [4次転職] happens 100 day after [Zero]s end and is colored in #88ff88
+    [5次転職] happens 200 day after [Zero]s end and is colored in #88ff88
 
-    [プロローグ] lasts 10 day and starts at [Zero]s end
+   --魔職冒険者--
+    [プロローグ] lasts 10 day and starts at [Zero]s end and is colored in #88ff88
     [フェアリー狩り] lasts 24 day and starts 1 day before [プロローグ]s end and is colored in #ff8888
     [ロイヤルフェアリー狩り] lasts 26 day and starts 1 day before [プロローグ]s end and is colored in #ff8888
     [サージェンアイ狩り] lasts 30 day and is colored in #ff8888
     [サージェンアイ狩り] starts 16 day before [フェアリー狩り]s end
     [サージェンアイ狩り] starts 16 day before [ロイヤルフェアリー狩り]s end
     [カッパードレイク狩り] lasts 41 day and starts 4 day before [サージェンアイ狩り]s end and is colored in #ff8888
-
-    --備考--
-    [【モンスター名】] happens 0 day after [Zero]s end and is colored in #ff8888
-    [【クエスト】] happens 0 day after [Zero]s end and is colored in #88ff88
-    [【装備】] happens 0 day after [Zero]s end and is colored in #8888ff
-    [ウッドシールド] happens 5 day after [Zero]s end and is colored in #8888ff
-    [1次転職] happens 10 day after [Zero]s end and is colored in #88ff88
-    [フェアリー] happens 13 day after [Zero]s end  and is colored in #ff8888
-    [ロイヤルフェアリー] happens 15 day after [Zero]s end and is colored in #ff8888
-    [サージェンアイ] happens 29 day after [Zero]s end and is colored in #ff8888
-    [2次転職] happens 30 day after [Zero]s end and is colored in #88ff88
-    [3次転職] happens 60 day after [Zero]s end and is colored in #88ff88
-    [カッパードレイク] happens 66 day after [Zero]s end and is colored in #ff8888
-
-
-    [4次転職] happens 100 day after [Zero]s end and is colored in #88ff88
-    [5次転職] happens 200 day after [Zero]s end and is colored in #88ff88
 
 
 
