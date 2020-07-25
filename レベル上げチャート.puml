@@ -12,7 +12,7 @@
     --イベント・クエスト--
     [ウッドシールド] happens 5 day after [Zero]s end and is colored in #8888ff
     [1次転職] happens 10 day after [Zero]s end and is colored in #88ff88
-    [フェアリー] happens 13 day after [Zero]s end and is colored in #ff8888  and links to [[https://google.com]]
+    [フェアリー] happens 13 day after [Zero]s end and links to [[https://google.com]] and is colored in #ff8888
     [ロイヤルフェアリー] happens 15 day after [Zero]s end and is colored in #ff8888
     [サージェンアイ] happens 29 day after [Zero]s end and is colored in #ff8888
     [2次転職] happens 30 day after [Zero]s end and is colored in #88ff88
@@ -23,7 +23,7 @@
 
    --魔職冒険者--
     [プロローグ] lasts 10 day and starts at [Zero]s end and is colored in #88ff88
-    [フェアリー狩り] lasts 24 day and starts 1 day before [プロローグ]s end and is colored in #ff8888
+    [フェアリー狩り] lasts 24 day and starts 1 day before [プロローグ]s end and is colored in #ff8888 and links to [[https://google.com]]
     [ロイヤルフェアリー狩り] lasts 26 day and starts 1 day before [プロローグ]s end and is colored in #ff8888
     [サージェンアイ狩り] lasts 30 day and is colored in #ff8888
     [サージェンアイ狩り] starts 16 day before [フェアリー狩り]s end
