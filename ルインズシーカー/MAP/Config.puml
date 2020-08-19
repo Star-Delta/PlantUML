@@ -1,0 +1,14 @@
+@startuml Config
+    skinparam Shadowing<<Dummy>> false
+    skinparam ArrowColor<<Dummy>> white
+    skinparam StateBackgroundColor<<Dummy>> white
+    skinparam StateBorderColor<<Dummy>> white
+    skinparam StateFontColor<<Dummy>> white
+
+    skinparam StateBackgroundColor<<Start>> Gold
+    skinparam StateBackgroundColor<<Monstar>> LightPink
+    skinparam StateBackgroundColor<<MagicShop>> LightSkyBlue
+    skinparam StateBackgroundColor<<Shop>> Khaki
+
+    hide empty description
+@enduml
