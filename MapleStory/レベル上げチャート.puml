@@ -1,0 +1,927 @@
+@startuml マジシャン_レベル上げチャート
+    --見方--
+    [ ] as [Zero] lasts 0 days
+    [(#888888)] happens 0 day after [Zero]s end and is colored in #888888
+    [【装備】(#8888ff)] happens 0 day after [Zero]s end and is colored in #8888ff
+    [【クエスト】(#88ff88)] happens 0 day after [Zero]s end and is colored in #88ff88
+    [(#88ffff)] happens 0 day after [Zero]s end and is colored in #88ffff
+    [【モンスター名】(#ff8888)] happens 0 day after [Zero]s end and is colored in #ff8888
+    [(#ff88ff)] happens 0 day after [Zero]s end and is colored in #ff88ff
+    [(#ffff88)] happens 0 day after [Zero]s end and is colored in #ffff88
+    [Description(#ffffff)] happens 0 day after [Zero]s end and is colored in #ffffff
+
+    --イベント・クエスト--
+    [ウッドシールド] happens 5 day after [Zero]s end and is colored in #8888ff
+    [フェアリー(13)] happens 13 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%95%E3%82%A7%E3%82%A2%E3%83%AA%E3%83%BC]] and is colored in #ff8888
+    [コールドアイ(28)] happens 28 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%B3%E3%83%BC%E3%83%AB%E3%83%89%E3%82%A2%E3%82%A4]] and is colored in #ff8888
+    [深い森のウィスプ(30-59)] lasts 30 day and starts 29 day after [Zero]s end and is colored in #ff8888
+
+    --マジシャン--
+    [1次転職] happens 10 day after [Zero]s end and is colored in #88ff88
+
+    [フェアリー] lasts 15 day and starts 9 day after [Zero]s end and is colored in #ff8888
+        [Map:そびえ立つ木/空と近い場所(湧き◎,地形△)] happens 0 day after [フェアリー]s start and is colored in #ffffff
+        [アイテム売却は【魔法使いの協会】へ] happens 0 day after [フェアリー]s start and is colored in #ffffff
+
+    [コールドアイ] lasts 12 day and starts 17 day after [Zero]s end and is colored in #ff8888
+        [Map:北の森/北の森の空き地(湧き〇,地形〇)] happens 0 day after [コールドアイ]s start and is colored in #ffffff
+        [1確できるなら] happens 0 day after [コールドアイ]s start and is colored in #ffffff
+
+    [深い森のウィスプ] lasts 10 day and starts 19 day after [Zero]s end and is colored in #ff8888
+        [Map:エルディン/深まる森1(湧き◎,地形◎)] happens 0 day after [深い森のウィスプ]s start and is colored in #ffffff 
+        [真ん中立って撃ちまくるだけでやばい] happens 0 day after [深い森のウィスプ]s start and is colored in #ffffff
+
+    [2次転職] happens 30 day after [Zero]s end and is colored in #88ff88
+
+@enduml
+
+@startuml ウィザード(火・毒)_レベル上げチャート
+    --見方--
+    [ ] as [Zero] lasts 0 days
+    [(#888888)] happens 0 day after [Zero]s end and is colored in #888888
+    [【装備】(#8888ff)] happens 0 day after [Zero]s end and is colored in #8888ff
+    [【クエスト】(#88ff88)] happens 0 day after [Zero]s end and is colored in #88ff88
+    [(#88ffff)] happens 0 day after [Zero]s end and is colored in #88ffff
+    [【モンスター名】(#ff8888)] happens 0 day after [Zero]s end and is colored in #ff8888
+    [(#ff88ff)] happens 0 day after [Zero]s end and is colored in #ff88ff
+    [(#ffff88)] happens 0 day after [Zero]s end and is colored in #ffff88
+    [Description(#ffffff)] happens 0 day after [Zero]s end and is colored in #ffffff
+
+    --イベント・クエスト--
+    [若芽泥怪物(50)] happens 50 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E8%8B%A5%E8%8A%BD%E6%B3%A5%E6%80%AA%E7%89%A9]] and is colored in #ff8888
+    [ダイル(50)] happens 50 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%80%E3%82%A4%E3%83%AB]] and is colored in #ff8888
+
+    --ウィザード(火・毒)--
+    [2次転職] happens 30 day after [Zero]s end and is colored in #88ff88
+    [【テーマダンジョン】妖精学園エリネル] lasts 30 day and starts 29 day after [Zero]s end and is colored in #88ff88
+        [マントと目飾りが必要なら] happens 0 day after [【テーマダンジョン】妖精学園エリネル]s start and is colored in #ffffff
+
+    [【テーマダンジョン】ゴールドビーチ] lasts 30 day and starts 29 day after [Zero]s end and is colored in #88ff88
+        [イヤリングが必要なら] happens 0 day after [【テーマダンジョン】ゴールドビーチ]s start and is colored in #ffffff
+
+    [【テーマダンジョン】リエナ海峡] lasts 30 day and starts 29 day after [Zero]s end and is colored in #88ff88
+        [ベルトと顔飾りが必要なら] happens 0 day after [【テーマダンジョン】リエナ海峡]s start and is colored in #ffffff
+
+    [コールドアイ(28)] lasts 9 day and starts 29 day after [Zero]s end and is colored in #ff8888
+        [Map:北の森/北の森の空き地(湧き〇,地形〇)] happens 0 day after [コールドアイ(28)]s start and is colored in #ffffff
+        [他にいい場所が無いなら] happens 0 day after [コールドアイ(28)]s start and is colored in #ffffff
+
+    [深い森のウィスプ(30-59)] lasts 30 day and starts 29 day after [Zero]s end and is colored in #ff8888
+        [Map:エルディン/深まる森1(湧き◎,地形◎)] happens 0 day after [深い森のウィスプ(30-59)]s start and is colored in #ffffff 
+        [クエストはやらなくていい] happens 0 day after [深い森のウィスプ(30-59)]s start and is colored in #ffffff
+
+    [ゴミ捨て場のごろつき(35)] lasts 25 day and starts 29 day after [Zero]s end and is colored in #ff8888
+        [Map:ゴミ捨て場/ゴミ捨て場 薄暗い場所(湧き◎,地形◎)] happens 0 day after [ゴミ捨て場のごろつき(35)]s start and is colored in #ffffff
+        [行くのが結構面倒] happens 0 day after [ゴミ捨て場のごろつき(35)]s start and is colored in #ffffff
+
+    [レイス(45)] lasts 20 day and starts 34 day after [Zero]s end and is colored in #ff8888
+        [Map:カニングシティー地下鉄/2号線2区間(湧き〇,地形〇)] happens 0 day after [レイス(45)]s start and is colored in #ffffff
+
+    [若芽泥怪物(50)] lasts 25 day and starts 29 day after [Zero]s end and is colored in #ff8888
+    [ダイル(50)] lasts 25 day and starts 29 day after [Zero]s end and is colored in #ff8888
+        [Map:ゴミ捨て場/ゴミ捨て場 薄暗い場所(湧き◎,地形◎)] happens 0 day after [ダイル(50)]s start and is colored in #ffffff
+        [行くのが結構面倒] happens 0 day after [ダイル(50)]s start and is colored in #ffffff
+
+    [カッパードレイク(66)] lasts 14 day and starts 45 day after [Zero]s end and is colored in #ff8888
+        [Map:湿地/静かな湿地(湧き◎,地形◎)] happens 0 day after [カッパードレイク(66)]s start and is colored in #ffffff
+
+    [3次転職] happens 60 day after [Zero]s end and is colored in #88ff88
+
+@enduml
+
+@startuml クエストレベル一覧
+    --見方--
+    [ ] as [Zero] lasts 0 days
+    [(#888888)] happens 0 day after [Zero]s end and is colored in #888888
+    [(#8888ff)] happens 0 day after [Zero]s end and is colored in #8888ff
+    [(#88ff88)] happens 0 day after [Zero]s end and is colored in #88ff88
+    [(#88ffff)] happens 0 day after [Zero]s end and is colored in #88ffff
+    [(#ff8888)] happens 0 day after [Zero]s end and is colored in #ff8888
+    [(#ff88ff)] happens 0 day after [Zero]s end and is colored in #ff88ff
+    [(#ffff88)] happens 0 day after [Zero]s end and is colored in #ffff88
+    [Description(#ffffff)] happens 0 day after [Zero]s end and is colored in #ffffff
+
+    --クエスト--
+    [1次転職] happens 10 day after [Zero]s end and is colored in #88ff88
+    [2次転職] happens 30 day after [Zero]s end and is colored in #88ff88
+    [3次転職] happens 60 day after [Zero]s end and is colored in #88ff88
+    [4次転職] happens 100 day after [Zero]s end and is colored in #88ff88
+    [5次転職] happens 200 day after [Zero]s end and is colored in #88ff88
+    [【テーマダンジョン】妖精学園エリネル] lasts 30 day and starts 29 day after [Zero]s end and is colored in #88ff88
+    [【テーマダンジョン】ゴールドビーチ] lasts 30 day and starts 29 day after [Zero]s end and is colored in #88ff88
+    [【テーマダンジョン】リエナ海峡] lasts 30 day and starts 29 day after [Zero]s end and is colored in #88ff88
+    [【テーマダンジョン】秘密の森エルディン] lasts 30 day and starts 29 day after [Zero]s end and is colored in #88ff88
+    [5次転職] happens 200 day after [Zero]s end and is colored in #88ff88
+@enduml
+
+@startuml モンスターレベル一覧
+    --見方--
+    [ ] as [Zero] lasts 0 days
+    [手入力(#888888)] happens 0 day after [Zero]s end and is colored in #888888
+    [(#8888ff)] happens 0 day after [Zero]s end and is colored in #8888ff
+    [(#88ff88)] happens 0 day after [Zero]s end and is colored in #88ff88
+    [(#88ffff)] happens 0 day after [Zero]s end and is colored in #88ffff
+    [MapleStoryDrop-wiki(http://maplesonar.com/wiki/index.php?MapleStoryDrop-wiki)参照(#ff8888)] happens 0 day after [Zero]s end and is colored in #ff8888
+    [(#ff88ff)] happens 0 day after [Zero]s end and is colored in #ff88ff
+    [(#ffff88)] happens 0 day after [Zero]s end and is colored in #ffff88
+    [Description(#ffffff)] happens 0 day after [Zero]s end and is colored in #ffffff
+
+    --修正済--
+
+    [深い森のウィスプ(30-59)] lasts 30 day and starts 29 day after [Zero]s end and is colored in #888888
+    [ゴミ捨て場のごろつき(35)] happens 35 day after [Zero]s end and is colored in #ff8888
+    [スティジ(43)] happens 43 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%B9%E3%83%86%E3%82%A3%E3%82%B8]] and is colored in #ff8888
+    [ジュニアレイス(44)] happens 44 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%B8%E3%83%A5%E3%83%8B%E3%82%A2%E3%83%AC%E3%82%A4%E3%82%B9]] and is colored in #ff8888
+    [レイス(45)] happens 45 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%AC%E3%82%A4%E3%82%B9]] and is colored in #ff8888
+    [シェード(45)] happens 45 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%B7%E3%82%A7%E3%83%BC%E3%83%89]] and is colored in #ff8888
+    [エビルアイ(26)] happens 26 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%A8%E3%83%93%E3%83%AB%E3%82%A2%E3%82%A4]] and is colored in #ff8888
+    [カズアイ(27)] happens 27 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%AB%E3%82%BA%E3%82%A2%E3%82%A4]] and is colored in #ff8888
+    [コールドアイ(28)] happens 28 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%B3%E3%83%BC%E3%83%AB%E3%83%89%E3%82%A2%E3%82%A4]] and is colored in #ff8888
+    [サージェンアイ(29)] happens 29 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%B5%E3%83%BC%E3%82%B8%E3%82%A7%E3%83%B3%E3%82%A2%E3%82%A4]] and is colored in #ff8888
+    [カッパードレイク(66)] happens 66 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%AB%E3%83%83%E3%83%91%E3%83%BC%E3%83%89%E3%83%AC%E3%82%A4%E3%82%AF]] and is colored in #ff8888
+
+    [ジュニアネッキ(45)] happens 45 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%B8%E3%83%A5%E3%83%8B%E3%82%A2%E3%83%8D%E3%83%83%E3%82%AD]] and is colored in #ff8888
+    [アリゲイター(46)] happens 46 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%A2%E3%83%AA%E3%82%B2%E3%82%A4%E3%82%BF%E3%83%BC]] and is colored in #ff8888
+    [クロコ(47)] happens 47 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%AF%E3%83%AD%E3%82%B3]] and is colored in #ff8888
+    [泥沼怪物(49)] happens 49 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E6%B3%A5%E6%B2%BC%E6%80%AA%E7%89%A9]] and is colored in #ff8888
+    [若芽泥怪物(50)] happens 50 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E8%8B%A5%E8%8A%BD%E6%B3%A5%E6%80%AA%E7%89%A9]] and is colored in #ff8888
+    [ダイル(50)] happens 50 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%80%E3%82%A4%E3%83%AB]] and is colored in #ff8888
+
+    --元ネタ--
+    [ゴールドスライム(1)] happens 1 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%B4%E3%83%BC%E3%83%AB%E3%83%89%E3%82%B9%E3%83%A9%E3%82%A4%E3%83%A0]] and is colored in #ff8888
+    [ムル(1)] happens 1 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%A0%E3%83%AB]] and is colored in #ff8888
+    [ティノ(1)] happens 1 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%86%E3%82%A3%E3%83%8E]] and is colored in #ff8888
+    [デンデン(1)] happens 1 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%87%E3%83%B3%E3%83%87%E3%83%B3]] and is colored in #ff8888
+    [青デンデン(2)] happens 2 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E9%9D%92%E3%83%87%E3%83%B3%E3%83%87%E3%83%B3]] and is colored in #ff8888
+    [ティヴ(3)] happens 3 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%86%E3%82%A3%E3%83%B4]] and is colored in #ff8888
+    [ムルパ(3)] happens 3 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%A0%E3%83%AB%E3%83%91]] and is colored in #ff8888
+    [スポア(3)] happens 3 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%B9%E3%83%9D%E3%82%A2]] and is colored in #ff8888
+    [赤デンデン(5)] happens 5 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E8%B5%A4%E3%83%87%E3%83%B3%E3%83%87%E3%83%B3]] and is colored in #ff8888
+    [ティム(5)] happens 5 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%86%E3%82%A3%E3%83%A0]] and is colored in #ff8888
+    [ムルピン(5)] happens 5 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%A0%E3%83%AB%E3%83%94%E3%83%B3]] and is colored in #ff8888
+    [若葉の鉢植え(5)] happens 5 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E8%8B%A5%E8%91%89%E3%81%AE%E9%89%A2%E6%A4%8D%E3%81%88]] and is colored in #ff8888
+    [朝顔の鉢植え(6)] happens 6 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E6%9C%9D%E9%A1%94%E3%81%AE%E9%89%A2%E6%A4%8D%E3%81%88]] and is colored in #ff8888
+    [スライム(7)] happens 7 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%B9%E3%83%A9%E3%82%A4%E3%83%A0]] and is colored in #ff8888
+    [ティル(7)] happens 7 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%86%E3%82%A3%E3%83%AB]] and is colored in #ff8888
+    [ムルムル(7)] happens 7 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%A0%E3%83%AB%E3%83%A0%E3%83%AB]] and is colored in #ff8888
+    [ピグ(7)] happens 7 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%94%E3%82%B0]] and is colored in #ff8888
+    [怪しい狐(7)] happens 7 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E6%80%AA%E3%81%97%E3%81%84%E7%8B%90]] and is colored in #ff8888
+    [暴れオオカミ(7)] happens 7 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E6%9A%B4%E3%82%8C%E3%82%AA%E3%82%AA%E3%82%AB%E3%83%9F]] and is colored in #ff8888
+    [Jr.ブギ(7)] happens 7 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?Jr.%E3%83%96%E3%82%AE]] and is colored in #ff8888
+    [ケロピョン(8)] happens 8 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%B1%E3%83%AD%E3%83%94%E3%83%A7%E3%83%B3]] and is colored in #ff8888
+    [スタンプ(8)] happens 8 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%97]] and is colored in #ff8888
+    [ぶどうジュースの瓶(8)] happens 8 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%81%B6%E3%81%A9%E3%81%86%E3%82%B8%E3%83%A5%E3%83%BC%E3%82%B9%E3%81%AE%E7%93%B6]] and is colored in #ff8888
+    [オクトパス(9)] happens 9 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%AA%E3%82%AF%E3%83%88%E3%83%91%E3%82%B9]] and is colored in #ff8888
+    [ティグル(9)] happens 9 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%86%E3%82%A3%E3%82%B0%E3%83%AB]] and is colored in #ff8888
+    [ムルクン(9)] happens 9 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%A0%E3%83%AB%E3%82%AF%E3%83%B3]] and is colored in #ff8888
+    [メイプルキノコ(10)] happens 10 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%A1%E3%82%A4%E3%83%97%E3%83%AB%E3%82%AD%E3%83%8E%E3%82%B3]] and is colored in #ff8888
+    [マノ(10)] happens 10 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%9E%E3%83%8E]] and is colored in #ff8888
+    [Ｄ.スタンプ(10)] happens 10 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%EF%BC%A4.%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%97]] and is colored in #ff8888
+    [リボンピグ(10)] happens 10 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%AA%E3%83%9C%E3%83%B3%E3%83%94%E3%82%B0]] and is colored in #ff8888
+    [オオカミ(10)] happens 10 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%AA%E3%82%AA%E3%82%AB%E3%83%9F]] and is colored in #ff8888
+    [サングラスオオカミ(10)] happens 10 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%B5%E3%83%B3%E3%82%B0%E3%83%A9%E3%82%B9%E3%82%AA%E3%82%AA%E3%82%AB%E3%83%9F]] and is colored in #ff8888
+    [バブルリング(10)] happens 10 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%90%E3%83%96%E3%83%AB%E3%83%AA%E3%83%B3%E3%82%B0]] and is colored in #ff8888
+    [訓練ロボットA(10)] happens 10 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E8%A8%93%E7%B7%B4%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88A]] and is colored in #ff8888
+    [シニカルなメイプルキノコ(11)] happens 11 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%B7%E3%83%8B%E3%82%AB%E3%83%AB%E3%81%AA%E3%83%A1%E3%82%A4%E3%83%97%E3%83%AB%E3%82%AD%E3%83%8E%E3%82%B3]] and is colored in #ff8888
+    [スティジ(11)] happens 11 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%B9%E3%83%86%E3%82%A3%E3%82%B8]] and is colored in #ff8888
+    [訓練ロボットB(11)] happens 11 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E8%A8%93%E7%B7%B4%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88B]] and is colored in #ff8888
+    [ブラウンパペットリ(11)] happens 11 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%96%E3%83%A9%E3%82%A6%E3%83%B3%E3%83%91%E3%83%9A%E3%83%83%E3%83%88%E3%83%AA]] and is colored in #ff8888
+    [緑キノコ(12)] happens 12 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E7%B7%91%E3%82%AD%E3%83%8E%E3%82%B3]] and is colored in #ff8888
+    [ハイスタンプ(12)] happens 12 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%8F%E3%82%A4%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%97]] and is colored in #ff8888
+    [修行生スポア(12)] happens 12 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E4%BF%AE%E8%A1%8C%E7%94%9F%E3%82%B9%E3%83%9D%E3%82%A2]] and is colored in #ff8888
+    [保管庫警備兵(12)] happens 12 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E4%BF%9D%E7%AE%A1%E5%BA%AB%E8%AD%A6%E5%82%99%E5%85%B5]] and is colored in #ff8888
+    [訓練ロボットC(12)] happens 12 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E8%A8%93%E7%B7%B4%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88C]] and is colored in #ff8888
+    [ジュニアレイス(13)] happens 13 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%B8%E3%83%A5%E3%83%8B%E3%82%A2%E3%83%AC%E3%82%A4%E3%82%B9]] and is colored in #ff8888
+    [やさぐれた緑キノコ(13)] happens 13 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%84%E3%81%95%E3%81%90%E3%82%8C%E3%81%9F%E7%B7%91%E3%82%AD%E3%83%8E%E3%82%B3]] and is colored in #ff8888
+    [フェアリー(13)] happens 13 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%95%E3%82%A7%E3%82%A2%E3%83%AA%E3%83%BC]] and is colored in #ff8888
+    [青リボンピグ(13)] happens 13 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E9%9D%92%E3%83%AA%E3%83%9C%E3%83%B3%E3%83%94%E3%82%B0]] and is colored in #ff8888
+    [訓練ロボットZERO(13)] happens 13 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E8%A8%93%E7%B7%B4%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88ZERO]] and is colored in #ff8888
+    [フラワーパペットリ(13)] happens 13 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%95%E3%83%A9%E3%83%AF%E3%83%BC%E3%83%91%E3%83%9A%E3%83%83%E3%83%88%E3%83%AA]] and is colored in #ff8888
+    [訓練用の人形１(13)] happens 13 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E8%A8%93%E7%B7%B4%E7%94%A8%E3%81%AE%E4%BA%BA%E5%BD%A21]] and is colored in #ff8888
+    [バナロビ(13)] happens 13 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%90%E3%83%8A%E3%83%AD%E3%83%93]] and is colored in #ff8888
+    [ツノキノコ(14)] happens 14 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%84%E3%83%8E%E3%82%AD%E3%83%8E%E3%82%B3]] and is colored in #ff8888
+    [Ｄ.ハイスタンプ(14)] happens 14 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%EF%BC%A4.%E3%83%8F%E3%82%A4%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%97]] and is colored in #ff8888
+    [見回りロボット(14)] happens 14 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E8%A6%8B%E5%9B%9E%E3%82%8A%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88]] and is colored in #ff8888
+    [訓練用の人形２(14)] happens 14 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E8%A8%93%E7%B7%B4%E7%94%A8%E3%81%AE%E4%BA%BA%E5%BD%A22]] and is colored in #ff8888
+    [赤テン(15)] happens 15 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E8%B5%A4%E3%83%86%E3%83%B3]] and is colored in #ff8888
+    [オンドリュー(15)] happens 15 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%AA%E3%83%B3%E3%83%89%E3%83%AA%E3%83%A5%E3%83%BC]] and is colored in #ff8888
+    [ロイヤルフェアリー(15)] happens 15 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%AD%E3%82%A4%E3%83%A4%E3%83%AB%E3%83%95%E3%82%A7%E3%82%A2%E3%83%AA%E3%83%BC]] and is colored in #ff8888
+    [レイス(15)] happens 15 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%AC%E3%82%A4%E3%82%B9]] and is colored in #ff8888
+    [訓練用の人形３(15)] happens 15 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E8%A8%93%E7%B7%B4%E7%94%A8%E3%81%AE%E4%BA%BA%E5%BD%A23]] and is colored in #ff8888
+    [ゴーレム(15)] happens 15 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%B4%E3%83%BC%E3%83%AC%E3%83%A0]] and is colored in #ff8888
+    [オレンジトーン(15)] happens 15 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%AA%E3%83%AC%E3%83%B3%E3%82%B8%E3%83%88%E3%83%BC%E3%83%B3]] and is colored in #ff8888
+    [青キノコ(16)] happens 16 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E9%9D%92%E3%82%AD%E3%83%8E%E3%82%B3]] and is colored in #ff8888
+    [腹を立てるゾンビきのこ(16)] happens 16 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E8%85%B9%E3%82%92%E7%AB%8B%E3%81%A6%E3%82%8B%E3%82%BE%E3%83%B3%E3%83%93%E3%81%8D%E3%81%AE%E3%81%93]] and is colored in #ff8888
+    [スプラウトスタンプ(16)] happens 16 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%B9%E3%83%97%E3%83%A9%E3%82%A6%E3%83%88%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%97]] and is colored in #ff8888
+    [おかしな道標(16)] happens 16 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%81%8A%E3%81%8B%E3%81%97%E3%81%AA%E9%81%93%E6%A8%99]] and is colored in #ff8888
+    [シェード(17)] happens 17 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%B7%E3%82%A7%E3%83%BC%E3%83%89]] and is colored in #ff8888
+    [泣き虫青キノコ(17)] happens 17 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E6%B3%A3%E3%81%8D%E8%99%AB%E9%9D%92%E3%82%AD%E3%83%8E%E3%82%B3]] and is colored in #ff8888
+    [いやらしいスプラウトスタンプ(17)] happens 17 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%81%84%E3%82%84%E3%82%89%E3%81%97%E3%81%84%E3%82%B9%E3%83%97%E3%83%A9%E3%82%A6%E3%83%88%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%97]] and is colored in #ff8888
+    [黄色のヒトデ(17)] happens 17 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E9%BB%84%E8%89%B2%E3%81%AE%E3%83%92%E3%83%88%E3%83%87]] and is colored in #ff8888
+    [オダ軍の偵察兵(17)] happens 17 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%AA%E3%83%80%E8%BB%8D%E3%81%AE%E5%81%B5%E5%AF%9F%E5%85%B5]] and is colored in #ff8888
+    [ゾンビキノコ(18)] happens 18 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%BE%E3%83%B3%E3%83%93%E3%82%AD%E3%83%8E%E3%82%B3]] and is colored in #ff8888
+    [エビルアイ(18)] happens 18 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%A8%E3%83%93%E3%83%AB%E3%82%A2%E3%82%A4]] and is colored in #ff8888
+    [エビルアイ(18)] happens 18 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%A8%E3%83%93%E3%83%AB%E3%82%A2%E3%82%A4%28%E3%83%8D%E3%83%83%E3%83%88%E3%82%AB%E3%83%95%E3%82%A7%29]] and is colored in #ff8888
+    [大蛇(18)] happens 18 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E5%A4%A7%E8%9B%87%28%E3%82%A8%E3%83%BC%E3%83%87%E3%83%AB%E3%82%B7%E3%83%A5%E3%82%BF%E3%82%A4%E3%83%B3%29]] and is colored in #ff8888
+    [訓練ロボットフォース(18)] happens 18 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E8%A8%93%E7%B7%B4%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88%E3%83%95%E3%82%A9%E3%83%BC%E3%82%B9]] and is colored in #ff8888
+    [パイレーツオクト(18)] happens 18 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%91%E3%82%A4%E3%83%AC%E3%83%BC%E3%83%84%E3%82%AA%E3%82%AF%E3%83%881]] and is colored in #ff8888
+    [ワイルドボア(19)] happens 19 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%AF%E3%82%A4%E3%83%AB%E3%83%89%E3%83%9C%E3%82%A2]] and is colored in #ff8888
+    [ママシュ(19)] happens 19 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%9E%E3%83%9E%E3%82%B7%E3%83%A5]] and is colored in #ff8888
+    [オダ軍の上級偵察兵(19)] happens 19 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%AA%E3%83%80%E8%BB%8D%E3%81%AE%E4%B8%8A%E7%B4%9A%E5%81%B5%E5%AF%9F%E5%85%B5]] and is colored in #ff8888
+    [危険な青キノコ(20)] happens 20 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E5%8D%B1%E9%99%BA%E3%81%AA%E9%9D%92%E3%82%AD%E3%83%8E%E3%82%B3]] and is colored in #ff8888
+    [コケッコー(20)] happens 20 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%B3%E3%82%B1%E3%83%83%E3%82%B3%E3%83%BC]] and is colored in #ff8888
+    [臆病のワイルドボア(20)] happens 20 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E8%87%86%E7%97%85%E3%81%AE%E3%83%AF%E3%82%A4%E3%83%AB%E3%83%89%E3%83%9C%E3%82%A2]] and is colored in #ff8888
+    [カズアイ(20)] happens 20 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%AB%E3%82%BA%E3%82%A2%E3%82%A4]] and is colored in #ff8888
+    [スタンピ(20)] happens 20 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%94]] and is colored in #ff8888
+    [水泥棒(20)] happens 20 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E6%B0%B4%E6%B3%A5%E6%A3%92]] and is colored in #ff8888
+    [ザナロビ(20)] happens 20 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%B6%E3%83%8A%E3%83%AD%E3%83%93]] and is colored in #ff8888
+    [オダ軍の歩兵(21)] happens 21 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%AA%E3%83%80%E8%BB%8D%E3%81%AE%E6%AD%A9%E5%85%B5]] and is colored in #ff8888
+    [ララルン(21)] happens 21 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%A9%E3%83%A9%E3%83%AB%E3%83%B3]] and is colored in #ff8888
+    [コールドアイ(22)] happens 22 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%B3%E3%83%BC%E3%83%AB%E3%83%89%E3%82%A2%E3%82%A4]] and is colored in #ff8888
+    [アイアンピグ(22)] happens 22 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%A2%E3%82%A4%E3%82%A2%E3%83%B3%E3%83%94%E3%82%B0]] and is colored in #ff8888
+    [ダダック(22)] happens 22 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%80%E3%83%80%E3%83%83%E3%82%AF]] and is colored in #ff8888
+    [ダストボックス(22)] happens 22 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%80%E3%82%B9%E3%83%88%E3%83%9C%E3%83%83%E3%82%AF%E3%82%B9]] and is colored in #ff8888
+    [Ｄ.ゴーレム(22)] happens 22 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%EF%BC%A4.%E3%82%B4%E3%83%BC%E3%83%AC%E3%83%A0]] and is colored in #ff8888
+    [パイレーツオクト(22)] happens 22 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%91%E3%82%A4%E3%83%AC%E3%83%BC%E3%83%84%E3%82%AA%E3%82%AF%E3%83%882]] and is colored in #ff8888
+    [不思議な生物(22)] happens 22 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E4%B8%8D%E6%80%9D%E8%AD%B0%E3%81%AA%E7%94%9F%E7%89%A9]] and is colored in #ff8888
+    [ベリートーン(22)] happens 22 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%99%E3%83%AA%E3%83%BC%E3%83%88%E3%83%BC%E3%83%B3]] and is colored in #ff8888
+    [イビルスライム(23)] happens 23 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%A4%E3%83%93%E3%83%AB%E3%82%B9%E3%83%A9%E3%82%A4%E3%83%A0]] and is colored in #ff8888
+    [ジョン(23)] happens 23 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%B8%E3%83%A7%E3%83%B3]] and is colored in #ff8888
+    [怪しい盗賊(23)] happens 23 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E6%80%AA%E3%81%97%E3%81%84%E7%9B%97%E8%B3%8A]] and is colored in #ff8888
+    [オダ軍の武士(23)] happens 23 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%AA%E3%83%80%E8%BB%8D%E3%81%AE%E6%AD%A6%E5%A3%AB]] and is colored in #ff8888
+    [セナロビ(23)] happens 23 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%BB%E3%83%8A%E3%83%AD%E3%83%93]] and is colored in #ff8888
+    [アイアンボア(24)] happens 24 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%A2%E3%82%A4%E3%82%A2%E3%83%B3%E3%83%9C%E3%82%A2]] and is colored in #ff8888
+    [サージェンアイ(24)] happens 24 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%B5%E3%83%BC%E3%82%B8%E3%82%A7%E3%83%B3%E3%82%A2%E3%82%A4]] and is colored in #ff8888
+    [ジョイントゴーレム(24)] happens 24 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%B8%E3%83%A7%E3%82%A4%E3%83%B3%E3%83%88%E3%82%B4%E3%83%BC%E3%83%AC%E3%83%A0]] and is colored in #ff8888
+    [ジェリーフィッシュ(24)] happens 24 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%B8%E3%82%A7%E3%83%AA%E3%83%BC%E3%83%95%E3%82%A3%E3%83%83%E3%82%B7%E3%83%A5]] and is colored in #ff8888
+    [クールジェリーフィッシュ(24)] happens 24 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%AF%E3%83%BC%E3%83%AB%E3%82%B8%E3%82%A7%E3%83%AA%E3%83%BC%E3%83%95%E3%82%A3%E3%83%83%E3%82%B7%E3%83%A5]] and is colored in #ff8888
+    [カカルン(24)] happens 24 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%AB%E3%82%AB%E3%83%AB%E3%83%B3]] and is colored in #ff8888
+    [ゾンビママシュ(25)] happens 25 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%BE%E3%83%B3%E3%83%93%E3%83%9E%E3%83%9E%E3%82%B7%E3%83%A5]] and is colored in #ff8888
+    [眼鏡犬(25)] happens 25 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E7%9C%BC%E9%8F%A1%E7%8A%AC]] and is colored in #ff8888
+    [シープン(25)] happens 25 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%B7%E3%83%BC%E3%83%97%E3%83%B3]] and is colored in #ff8888
+    [サンヘッド(25)] happens 25 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%B5%E3%83%B3%E3%83%98%E3%83%83%E3%83%89]] and is colored in #ff8888
+    [街灯(25)] happens 25 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E8%A1%97%E7%81%AF]] and is colored in #ff8888
+    [ファイアボア(26)] happens 26 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%95%E3%82%A1%E3%82%A4%E3%82%A2%E3%83%9C%E3%82%A2]] and is colored in #ff8888
+    [アイスジョイントゴーレム(26)] happens 26 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%A2%E3%82%A4%E3%82%B9%E3%82%B8%E3%83%A7%E3%82%A4%E3%83%B3%E3%83%88%E3%82%B4%E3%83%BC%E3%83%AC%E3%83%A0]] and is colored in #ff8888
+    [アムティ(28)] happens 28 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%A2%E3%83%A0%E3%83%86%E3%82%A3]] and is colored in #ff8888
+    [ゾンビルーパン(28)] happens 28 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%BE%E3%83%B3%E3%83%93%E3%83%AB%E3%83%BC%E3%83%91%E3%83%B3]] and is colored in #ff8888
+    [スーパースライム(28)] happens 28 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%82%B9%E3%83%A9%E3%82%A4%E3%83%A0]] and is colored in #ff8888
+    [ガーマー(28)] happens 28 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%AC%E3%83%BC%E3%83%9E%E3%83%BC]] and is colored in #ff8888
+    [ウッドマスク(28)] happens 28 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%A6%E3%83%83%E3%83%89%E3%83%9E%E3%82%B9%E3%82%AF]] and is colored in #ff8888
+    [見回りロボットS(28)] happens 28 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E8%A6%8B%E5%9B%9E%E3%82%8A%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88S]] and is colored in #ff8888
+    [ファイアジョイントゴーレム(28)] happens 28 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%95%E3%82%A1%E3%82%A4%E3%82%A2%E3%82%B8%E3%83%A7%E3%82%A4%E3%83%B3%E3%83%88%E3%82%B4%E3%83%BC%E3%83%AC%E3%83%A0]] and is colored in #ff8888
+    [オダ軍の陰陽師(28)] happens 28 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%AA%E3%83%80%E8%BB%8D%E3%81%AE%E9%99%B0%E9%99%BD%E5%B8%AB2]] and is colored in #ff8888
+    [ストーンマスク(29)] happens 29 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%B9%E3%83%88%E3%83%BC%E3%83%B3%E3%83%9E%E3%82%B9%E3%82%AF]] and is colored in #ff8888
+    [キンクラン(30)] happens 30 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%AD%E3%83%B3%E3%82%AF%E3%83%A9%E3%83%B3]] and is colored in #ff8888
+    [シーラー(30)] happens 30 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%B7%E3%83%BC%E3%83%A9%E3%83%BC]] and is colored in #ff8888
+    [青テン(30)] happens 30 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E9%9D%92%E3%83%86%E3%83%B3]] and is colored in #ff8888
+    [カプリコ(30)] happens 30 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%AB%E3%83%97%E3%83%AA%E3%82%B3]] and is colored in #ff8888
+    [毒キノコ(31)] happens 31 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E6%AF%92%E3%82%AD%E3%83%8E%E3%82%B3]] and is colored in #ff8888
+    [スケルトンドック(31)] happens 31 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%B9%E3%82%B1%E3%83%AB%E3%83%88%E3%83%B3%E3%83%89%E3%83%83%E3%82%AF]] and is colored in #ff8888
+    [安全第一(31)] happens 31 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E5%AE%89%E5%85%A8%E7%AC%AC%E4%B8%80]] and is colored in #ff8888
+    [中毒ピグ(32)] happens 32 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E4%B8%AD%E6%AF%92%E3%83%94%E3%82%B0]] and is colored in #ff8888
+    [マミードック(32)] happens 32 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%9E%E3%83%9F%E3%83%BC%E3%83%89%E3%83%83%E3%82%AF]] and is colored in #ff8888
+    [子供岩ガリガリ(33)] happens 33 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E5%AD%90%E4%BE%9B%E5%B2%A9%E3%82%AC%E3%83%AA%E3%82%AC%E3%83%AA]] and is colored in #ff8888
+    [短角牛(33)] happens 33 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E7%9F%AD%E8%A7%92%E7%89%9B]] and is colored in #ff8888
+    [かぶとペペ(33)] happens 33 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%81%8B%E3%81%B6%E3%81%A8%E3%83%9A%E3%83%9A]] and is colored in #ff8888
+    [親衛隊ペペ(34)] happens 34 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E8%A6%AA%E8%A1%9B%E9%9A%8A%E3%83%9A%E3%83%9A]] and is colored in #ff8888
+    [スケルトン兵士(34)] happens 34 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%B9%E3%82%B1%E3%83%AB%E3%83%88%E3%83%B3%E5%85%B5%E5%A3%AB]] and is colored in #ff8888
+    [ダークカプリコ(35)] happens 35 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%80%E3%83%BC%E3%82%AF%E3%82%AB%E3%83%97%E3%83%AA%E3%82%B3]] and is colored in #ff8888
+    [ジュニアストーンボール(35)] happens 35 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%B8%E3%83%A5%E3%83%8B%E3%82%A2%E3%82%B9%E3%83%88%E3%83%BC%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB]] and is colored in #ff8888
+    [ダークイェティとペペキング(35)] happens 35 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%80%E3%83%BC%E3%82%AF%E3%82%A4%E3%82%A7%E3%83%86%E3%82%A3%E3%81%A8%E3%83%9A%E3%83%9A%E3%82%AD%E3%83%B3%E3%82%B0]] and is colored in #ff8888
+    [ゴールドイェティとペペキング(35)] happens 35 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%B4%E3%83%BC%E3%83%AB%E3%83%89%E3%82%A4%E3%82%A7%E3%83%86%E3%82%A3%E3%81%A8%E3%83%9A%E3%83%9A%E3%82%AD%E3%83%B3%E3%82%B0]] and is colored in #ff8888
+    [イェティとペペキング(35)] happens 35 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%A4%E3%82%A7%E3%83%86%E3%82%A3%E3%81%A8%E3%83%9A%E3%83%9A%E3%82%AD%E3%83%B3%E3%82%B0]] and is colored in #ff8888
+    [スケルトン将軍(35)] happens 35 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%B9%E3%82%B1%E3%83%AB%E3%83%88%E3%83%B3%E5%B0%86%E8%BB%8D]] and is colored in #ff8888
+    [大きな岩ガリガリ(35)] happens 35 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E5%A4%A7%E3%81%8D%E3%81%AA%E5%B2%A9%E3%82%AC%E3%83%AA%E3%82%AC%E3%83%AA]] and is colored in #ff8888
+    [パイレーツオクト(35)] happens 35 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%91%E3%82%A4%E3%83%AC%E3%83%BC%E3%83%84%E3%82%AA%E3%82%AF%E3%83%88]] and is colored in #ff8888
+    [スケルトン指揮官(36)] happens 36 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%B9%E3%82%B1%E3%83%AB%E3%83%88%E3%83%B3%E6%8C%87%E6%8F%AE%E5%AE%98]] and is colored in #ff8888
+    [イェティぬいぐるみ(36)] happens 36 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%A4%E3%82%A7%E3%83%86%E3%82%A3%E3%81%AC%E3%81%84%E3%81%90%E3%82%8B%E3%81%BF%28%E5%8F%B0%E6%B9%BE%29]] and is colored in #ff8888
+    [ジュニアぺぺぬいぐるみ(36)] happens 36 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%B8%E3%83%A5%E3%83%8B%E3%82%A2%E3%81%BA%E3%81%BA%E3%81%AC%E3%81%84%E3%81%90%E3%82%8B%E3%81%BF%28%E5%8F%B0%E6%B9%BE%29]] and is colored in #ff8888
+    [スケルトン司令官(36)] happens 36 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%B9%E3%82%B1%E3%83%AB%E3%83%88%E3%83%B3%E5%8F%B8%E4%BB%A4%E5%AE%98]] and is colored in #ff8888
+    [バブルティー(マンゴ)(38)] happens 38 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%90%E3%83%96%E3%83%AB%E3%83%86%E3%82%A3%E3%83%BC%28%E3%83%9E%E3%83%B3%E3%82%B4%29%2F%E3%82%AB%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%AF%E3%82%A8%E3%82%A2]] and is colored in #ff8888
+    [大臣キノコ(38)] happens 38 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E5%A4%A7%E8%87%A3%E3%82%AD%E3%83%8E%E3%82%B3]] and is colored in #ff8888
+    [ストーンボール(38)] happens 38 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%B9%E3%83%88%E3%83%BC%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB]] and is colored in #ff8888
+    [からすき牛(38)] happens 38 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%81%8B%E3%82%89%E3%81%99%E3%81%8D%E7%89%9B]] and is colored in #ff8888
+    [モーメガバン(38)] happens 38 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%A2%E3%83%BC%E3%83%A1%E3%82%AC%E3%83%90%E3%83%B3]] and is colored in #ff8888
+    [アイスストーンボール(39)] happens 39 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%A2%E3%82%A4%E3%82%B9%E3%82%B9%E3%83%88%E3%83%BC%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB]] and is colored in #ff8888
+    [ファイアストーンボール(39)] happens 39 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%95%E3%82%A1%E3%82%A4%E3%82%A2%E3%82%B9%E3%83%88%E3%83%BC%E3%83%B3%E3%83%9C%E3%83%BC%E3%83%AB]] and is colored in #ff8888
+    [ピエロルーパン(40)] happens 40 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%94%E3%82%A8%E3%83%AD%E3%83%AB%E3%83%BC%E3%83%91%E3%83%B3]] and is colored in #ff8888
+    [リティ(40)] happens 40 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%AA%E3%83%86%E3%82%A3]] and is colored in #ff8888
+    [シルバースライム(40)] happens 40 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%B7%E3%83%AB%E3%83%90%E3%83%BC%E3%82%B9%E3%83%A9%E3%82%A4%E3%83%A0]] and is colored in #ff8888
+    [ブラッドヘッド(40)] happens 40 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%96%E3%83%A9%E3%83%83%E3%83%89%E3%83%98%E3%83%83%E3%83%89]] and is colored in #ff8888
+    [ベイビータイホン(40)] happens 40 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%99%E3%82%A4%E3%83%93%E3%83%BC%E3%82%BF%E3%82%A4%E3%83%9B%E3%83%B3]] and is colored in #ff8888
+    [黒熊剣士(40)] happens 40 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E9%BB%92%E7%86%8A%E5%89%A3%E5%A3%AB]] and is colored in #ff8888
+    [お化け提灯(40)] happens 40 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%81%8A%E5%8C%96%E3%81%91%E6%8F%90%E7%81%AF%2F%E6%97%A7%E3%82%AD%E3%83%8E%E3%82%B3%E7%A5%9E%E7%A4%BE]] and is colored in #ff8888
+    [暴走ゴーレム(40)] happens 40 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E6%9A%B4%E8%B5%B0%E3%82%B4%E3%83%BC%E3%83%AC%E3%83%A0]] and is colored in #ff8888
+    [リバーストーン(40)] happens 40 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%AA%E3%83%90%E3%83%BC%E3%82%B9%E3%83%88%E3%83%BC%E3%83%B3]] and is colored in #ff8888
+    [グラビトン(41)] happens 41 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%B0%E3%83%A9%E3%83%93%E3%83%88%E3%83%B3]] and is colored in #ff8888
+    [ダークリティ(42)] happens 42 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%80%E3%83%BC%E3%82%AF%E3%83%AA%E3%83%86%E3%82%A3]] and is colored in #ff8888
+    [カイザー(42)] happens 42 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%AB%E3%82%A4%E3%82%B6%E3%83%BC]] and is colored in #ff8888
+    [ジュニアぺぺ(43)] happens 43 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%B8%E3%83%A5%E3%83%8B%E3%82%A2%E3%81%BA%E3%81%BA]] and is colored in #ff8888
+    [ポイズンストーンバグ(43)] happens 43 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%9D%E3%82%A4%E3%82%BA%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%B3%E3%83%90%E3%82%B0]] and is colored in #ff8888
+    [ポイズンフラワー(43)] happens 43 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%9D%E3%82%A4%E3%82%BA%E3%83%B3%E3%83%95%E3%83%A9%E3%83%AF%E3%83%BC]] and is colored in #ff8888
+    [ポイズンスプライト(43)] happens 43 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%9D%E3%82%A4%E3%82%BA%E3%83%B3%E3%82%B9%E3%83%97%E3%83%A9%E3%82%A4%E3%83%88]] and is colored in #ff8888
+    [パーフェクトスプライト(43)] happens 43 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%91%E3%83%BC%E3%83%95%E3%82%A7%E3%82%AF%E3%83%88%E3%82%B9%E3%83%97%E3%83%A9%E3%82%A4%E3%83%88]] and is colored in #ff8888
+    [ポイズンツリーロード(43)] happens 43 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%9D%E3%82%A4%E3%82%BA%E3%83%B3%E3%83%84%E3%83%AA%E3%83%BC%E3%83%AD%E3%83%BC%E3%83%89]] and is colored in #ff8888
+    [オダ軍の陰陽師(43)] happens 43 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%AA%E3%83%80%E8%BB%8D%E3%81%AE%E9%99%B0%E9%99%BD%E5%B8%AB]] and is colored in #ff8888
+    [ドレイク(44)] happens 44 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%89%E3%83%AC%E3%82%A4%E3%82%AF]] and is colored in #ff8888
+    [レッドドレイク(45)] happens 45 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%AC%E3%83%83%E3%83%89%E3%83%89%E3%83%AC%E3%82%A4%E3%82%AF]] and is colored in #ff8888
+    [緑テン(45)] happens 45 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E7%B7%91%E3%83%86%E3%83%B3]] and is colored in #ff8888
+    [レプラコーン(45)] happens 45 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%AC%E3%83%97%E3%83%A9%E3%82%B3%E3%83%BC%E3%83%B31]] and is colored in #ff8888
+    [レプラコーン(45)] happens 45 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%AC%E3%83%97%E3%83%A9%E3%82%B3%E3%83%BC%E3%83%B32]] and is colored in #ff8888
+    [白虎剣士(45)] happens 45 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E7%99%BD%E8%99%8E%E5%89%A3%E5%A3%AB]] and is colored in #ff8888
+    [ポイズンゴーレム(45)] happens 45 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%9D%E3%82%A4%E3%82%BA%E3%83%B3%E3%82%B4%E3%83%BC%E3%83%AC%E3%83%A0]] and is colored in #ff8888
+    [ジュニアイェティ(45)] happens 45 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%B8%E3%83%A5%E3%83%8B%E3%82%A2%E3%82%A4%E3%82%A7%E3%83%86%E3%82%A3]] and is colored in #ff8888
+    [ママフィクシ(45)] happens 45 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%9E%E3%83%9E%E3%83%95%E3%82%A3%E3%82%AF%E3%82%B7]] and is colored in #ff8888
+    [バルログの頭(45)] happens 45 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%90%E3%83%AB%E3%83%AD%E3%82%B0%E3%81%AE%E9%A0%AD%28%E3%82%A4%E3%83%BC%E3%82%B8%E3%83%BC%E3%83%A2%E3%83%BC%E3%83%89%29]] and is colored in #ff8888
+    [強化型ポイズンゴーレム(46)] happens 46 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E5%BC%B7%E5%8C%96%E5%9E%8B%E3%83%9D%E3%82%A4%E3%82%BA%E3%83%B3%E3%82%B4%E3%83%BC%E3%83%AC%E3%83%A0]] and is colored in #ff8888
+    [ジュニアウェンディゴ(46)] happens 46 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%B8%E3%83%A5%E3%83%8B%E3%82%A2%E3%82%A6%E3%82%A7%E3%83%B3%E3%83%87%E3%82%A3%E3%82%B4]] and is colored in #ff8888
+    [アイスドレイク(46)] happens 46 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%A2%E3%82%A4%E3%82%B9%E3%83%89%E3%83%AC%E3%82%A4%E3%82%AF]] and is colored in #ff8888
+    [ダークドレイク(47)] happens 47 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%80%E3%83%BC%E3%82%AF%E3%83%89%E3%83%AC%E3%82%A4%E3%82%AF]] and is colored in #ff8888
+    [ぺぺ(48)] happens 48 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%81%BA%E3%81%BA]] and is colored in #ff8888
+    [ワイルドカーゴ(48)] happens 48 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%AF%E3%82%A4%E3%83%AB%E3%83%89%E3%82%AB%E3%83%BC%E3%82%B4]] and is colored in #ff8888
+    [超強化型ポイズンゴーレム(48)] happens 48 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E8%B6%85%E5%BC%B7%E5%8C%96%E5%9E%8B%E3%83%9D%E3%82%A4%E3%82%BA%E3%83%B3%E3%82%B4%E3%83%BC%E3%83%AC%E3%83%A0]] and is colored in #ff8888
+    [ベビーバルログ(48)] happens 48 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%99%E3%83%93%E3%83%BC%E3%83%90%E3%83%AB%E3%83%AD%E3%82%B0]] and is colored in #ff8888
+    [ジェラシーロッカー(48)] happens 48 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%B8%E3%82%A7%E3%83%A9%E3%82%B7%E3%83%BC%E3%83%AD%E3%83%83%E3%82%AB%E3%83%BC%2F%E3%82%AB%E3%83%8B%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%AF%E3%82%A8%E3%82%A2]] and is colored in #ff8888
+    [ジュニアセリオン(49)] happens 49 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%B8%E3%83%A5%E3%83%8B%E3%82%A2%E3%82%BB%E3%83%AA%E3%82%AA%E3%83%B3]] and is colored in #ff8888
+    [ジュニアグリュピン(49)] happens 49 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%B8%E3%83%A5%E3%83%8B%E3%82%A2%E3%82%B0%E3%83%AA%E3%83%A5%E3%83%94%E3%83%B3]] and is colored in #ff8888
+    [ジュニアライオナ(49)] happens 49 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%B8%E3%83%A5%E3%83%8B%E3%82%A2%E3%83%A9%E3%82%A4%E3%82%AA%E3%83%8A]] and is colored in #ff8888
+    [タウロマシス(49)] happens 49 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%BF%E3%82%A6%E3%83%AD%E3%83%9E%E3%82%B7%E3%82%B9]] and is colored in #ff8888
+    [バルログの右手(49)] happens 49 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%90%E3%83%AB%E3%83%AD%E3%82%B0%E3%81%AE%E5%8F%B3%E6%89%8B%28%E3%82%A4%E3%83%BC%E3%82%B8%E3%83%BC%E3%83%A2%E3%83%BC%E3%83%89%29]] and is colored in #ff8888
+    [バルログの左手(49)] happens 49 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%90%E3%83%AB%E3%83%AD%E3%82%B0%E3%81%AE%E5%B7%A6%E6%89%8B%28%E3%82%A4%E3%83%BC%E3%82%B8%E3%83%BC%E3%83%A2%E3%83%BC%E3%83%89%29]] and is colored in #ff8888
+    [ピラミッドマミードック(49)] happens 49 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%94%E3%83%A9%E3%83%9F%E3%83%83%E3%83%89%E3%83%9E%E3%83%9F%E3%83%BC%E3%83%89%E3%83%83%E3%82%AF3]] and is colored in #ff8888
+    [ピラミッドスケルトン(49)] happens 49 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%94%E3%83%A9%E3%83%9F%E3%83%83%E3%83%89%E3%82%B9%E3%82%B1%E3%83%AB%E3%83%88%E3%83%B33]] and is colored in #ff8888
+    [ミイラ(49)] happens 49 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%9F%E3%82%A4%E3%83%A93]] and is colored in #ff8888
+    [ファラオスネーク(49)] happens 49 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%95%E3%82%A1%E3%83%A9%E3%82%AA%E3%82%B9%E3%83%8D%E3%83%BC%E3%82%AF3]] and is colored in #ff8888
+    [アヌビス(49)] happens 49 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%A2%E3%83%8C%E3%83%93%E3%82%B93]] and is colored in #ff8888
+    [ダークペペ(49)] happens 49 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%80%E3%83%BC%E3%82%AF%E3%83%9A%E3%83%9A]] and is colored in #ff8888
+    [スターフィクシ(50)] happens 50 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%B9%E3%82%BF%E3%83%BC%E3%83%95%E3%82%A3%E3%82%AF%E3%82%B7]] and is colored in #ff8888
+    [タウロスピア(50)] happens 50 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%BF%E3%82%A6%E3%83%AD%E3%82%B9%E3%83%94%E3%82%A2]] and is colored in #ff8888
+    [パチモン(50)] happens 50 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%91%E3%83%81%E3%83%A2%E3%83%B3]] and is colored in #ff8888
+    [イェティぬいぐるみクレーン機(50)] happens 50 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%A4%E3%82%A7%E3%83%86%E3%82%A3%E3%81%AC%E3%81%84%E3%81%90%E3%82%8B%E3%81%BF%E3%82%AF%E3%83%AC%E3%83%BC%E3%83%B3%E6%A9%9F%28%E5%8F%B0%E6%B9%BE%29]] and is colored in #ff8888
+    [ジュニアぺぺクレーン機(50)] happens 50 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%B8%E3%83%A5%E3%83%8B%E3%82%A2%E3%81%BA%E3%81%BA%E3%82%AF%E3%83%AC%E3%83%BC%E3%83%B3%E6%A9%9F%28%E5%8F%B0%E6%B9%BE%29]] and is colored in #ff8888
+    [大王ムカデ(50)] happens 50 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E5%A4%A7%E7%8E%8B%E3%83%A0%E3%82%AB%E3%83%87]] and is colored in #ff8888
+    [バルログの魂(50)] happens 50 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%90%E3%83%AB%E3%83%AD%E3%82%B0%E3%81%AE%E9%AD%82%28%E3%82%A4%E3%83%BC%E3%82%B8%E3%83%BC%E3%83%A2%E3%83%BC%E3%83%89%29]] and is colored in #ff8888
+    [ファントムツリー(50)] happens 50 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%95%E3%82%A1%E3%83%B3%E3%83%88%E3%83%A0%E3%83%84%E3%83%AA%E3%83%BC]] and is colored in #ff8888
+    [鷹格闘家(50)] happens 50 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E9%B7%B9%E6%A0%BC%E9%97%98%E5%AE%B6]] and is colored in #ff8888
+    [ぺぺクイーン(50)] happens 50 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%81%BA%E3%81%BA%E3%82%AF%E3%82%A4%E3%83%BC%E3%83%B3]] and is colored in #ff8888
+    [ネペンデス(51)] happens 51 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%8D%E3%83%9A%E3%83%B3%E3%83%87%E3%82%B9]] and is colored in #ff8888
+    [ファイアボム(51)] happens 51 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%95%E3%82%A1%E3%82%A4%E3%82%A2%E3%83%9C%E3%83%A0]] and is colored in #ff8888
+    [ルナフィクシ(52)] happens 52 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%AB%E3%83%8A%E3%83%95%E3%82%A3%E3%82%AF%E3%82%B7]] and is colored in #ff8888
+    [ピンブム(52)] happens 52 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%94%E3%83%B3%E3%83%96%E3%83%A0]] and is colored in #ff8888
+    [ホワイトチュー(53)] happens 53 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%9B%E3%83%AF%E3%82%A4%E3%83%88%E3%83%81%E3%83%A5%E3%83%BC]] and is colored in #ff8888
+    [ダークネペンデス(53)] happens 53 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%80%E3%83%BC%E3%82%AF%E3%83%8D%E3%83%9A%E3%83%B3%E3%83%87%E3%82%B9]] and is colored in #ff8888
+    [ヘクタ(53)] happens 53 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%98%E3%82%AF%E3%82%BF]] and is colored in #ff8888
+    [スクラット(53)] happens 53 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%B9%E3%82%AF%E3%83%A9%E3%83%83%E3%83%88]] and is colored in #ff8888
+    [ブラックチュー(54)] happens 54 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%96%E3%83%A9%E3%83%83%E3%82%AF%E3%83%81%E3%83%A5%E3%83%BC]] and is colored in #ff8888
+    [サンフィクシ(54)] happens 54 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%B5%E3%83%B3%E3%83%95%E3%82%A3%E3%82%AF%E3%82%B7]] and is colored in #ff8888
+    [シークル(54)] happens 54 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%B7%E3%83%BC%E3%82%AF%E3%83%AB]] and is colored in #ff8888
+    [ジュニアミミック(54)] happens 54 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%B8%E3%83%A5%E3%83%8B%E3%82%A2%E3%83%9F%E3%83%9F%E3%83%83%E3%82%AF]] and is colored in #ff8888
+    [セリオン(55)] happens 55 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%BB%E3%83%AA%E3%82%AA%E3%83%B3]] and is colored in #ff8888
+    [ライオナ(55)] happens 55 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%A9%E3%82%A4%E3%82%AA%E3%83%8A]] and is colored in #ff8888
+    [グリュピン(55)] happens 55 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%B0%E3%83%AA%E3%83%A5%E3%83%94%E3%83%B3]] and is colored in #ff8888
+    [トリックスター(55)] happens 55 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%88%E3%83%AA%E3%83%83%E3%82%AF%E3%82%B9%E3%82%BF%E3%83%BC]] and is colored in #ff8888
+    [エリジャー(55)] happens 55 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%A8%E3%83%AA%E3%82%B8%E3%83%A3%E3%83%BC]] and is colored in #ff8888
+    [フレイムスライム(55)] happens 55 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%95%E3%83%AC%E3%82%A4%E3%83%A0%E3%82%B9%E3%83%A9%E3%82%A4%E3%83%A0]] and is colored in #ff8888
+    [ホワイトパン(55)] happens 55 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%9B%E3%83%AF%E3%82%A4%E3%83%88%E3%83%91%E3%83%B3]] and is colored in #ff8888
+    [ストンプラビット(55)] happens 55 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%B9%E3%83%88%E3%83%B3%E3%83%97%E3%83%A9%E3%83%93%E3%83%83%E3%83%88%2F%E6%97%A7%E4%B8%8B%E7%94%BA]] and is colored in #ff8888
+    [G.トリックスター(56)] happens 56 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?G.%E3%83%88%E3%83%AA%E3%83%83%E3%82%AF%E3%82%B9%E3%82%BF%E3%83%BC]] and is colored in #ff8888
+    [ジュニアルイネル(56)] happens 56 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%B8%E3%83%A5%E3%83%8B%E3%82%A2%E3%83%AB%E3%82%A4%E3%83%8D%E3%83%AB]] and is colored in #ff8888
+    [クラピ(56)] happens 56 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%AF%E3%83%A9%E3%83%94]] and is colored in #ff8888
+    [ゴールデンジャヴィル(56)] happens 56 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%B4%E3%83%BC%E3%83%AB%E3%83%87%E3%83%B3%E3%82%B8%E3%83%A3%E3%83%B4%E3%82%A3%E3%83%AB]] and is colored in #ff8888
+    [チョプター(57)] happens 57 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%81%E3%83%A7%E3%83%97%E3%82%BF%E3%83%BC]] and is colored in #ff8888
+    [チョピター(57)] happens 57 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%81%E3%83%A7%E3%83%94%E3%82%BF%E3%83%BC]] and is colored in #ff8888
+    [雪山の亡霊(57)] happens 57 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E9%9B%AA%E5%B1%B1%E3%81%AE%E4%BA%A1%E9%9C%8A]] and is colored in #ff8888
+    [スコピ(57)] happens 57 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%B9%E3%82%B3%E3%83%94]] and is colored in #ff8888
+    [ビートラビット(58)] happens 58 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%93%E3%83%BC%E3%83%88%E3%83%A9%E3%83%93%E3%83%83%E3%83%88]] and is colored in #ff8888
+    [ルイネル(58)] happens 58 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%AB%E3%82%A4%E3%83%8D%E3%83%AB]] and is colored in #ff8888
+    [パパフィクシ(58)] happens 58 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%91%E3%83%91%E3%83%95%E3%82%A3%E3%82%AF%E3%82%B7]] and is colored in #ff8888
+    [ジュニアフーガー(58)] happens 58 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%B8%E3%83%A5%E3%83%8B%E3%82%A2%E3%83%95%E3%83%BC%E3%82%AC%E3%83%BC%2F%E6%97%A7%E4%B8%8B%E7%94%BA]] and is colored in #ff8888
+    [シーコ(58)] happens 58 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%B7%E3%83%BC%E3%82%B3]] and is colored in #ff8888
+    [ゴールデンフェネック(60)] happens 60 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%B4%E3%83%BC%E3%83%AB%E3%83%87%E3%83%B3%E3%83%95%E3%82%A7%E3%83%8D%E3%83%83%E3%82%AF]] and is colored in #ff8888
+    [バブルフィッシュ(60)] happens 60 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%90%E3%83%96%E3%83%AB%E3%83%95%E3%82%A3%E3%83%83%E3%82%B7%E3%83%A5]] and is colored in #ff8888
+    [大蛇(60)] happens 60 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E5%A4%A7%E8%9B%87%28%E3%82%BF%E3%82%A4%E3%83%A9%E3%83%B3%E3%83%89%29]] and is colored in #ff8888
+    [フーガー(60)] happens 60 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%95%E3%83%BC%E3%82%AC%E3%83%BC%2F%E6%97%A7%E4%B8%8B%E7%94%BA]] and is colored in #ff8888
+    [ブロックパス(60)] happens 60 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%96%E3%83%AD%E3%83%83%E3%82%AF%E3%83%91%E3%82%B9]] and is colored in #ff8888
+    [ぶっちゃーブレイド(60)] happens 60 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%81%B6%E3%81%A3%E3%81%A1%E3%82%83%E3%83%BC%E3%83%96%E3%83%AC%E3%82%A4%E3%83%89]] and is colored in #ff8888
+    [クレーンゲーム機(60)] happens 60 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%AF%E3%83%AC%E3%83%BC%E3%83%B3%E3%82%B2%E3%83%BC%E3%83%A0%E6%A9%9F]] and is colored in #ff8888
+    [クレーンゲーム(60)] happens 60 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%AF%E3%83%AC%E3%83%BC%E3%83%B3%E3%82%B2%E3%83%BC%E3%83%A0%28%E5%AE%8C%E5%85%A8%E4%BD%93%29]] and is colored in #ff8888
+    [男山賊(60)] happens 60 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E7%94%B7%E5%B1%B1%E8%B3%8A]] and is colored in #ff8888
+    [オモチャ黒騎士(60)] happens 60 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%AA%E3%83%A2%E3%83%81%E3%83%A3%E9%BB%92%E9%A8%8E%E5%A3%AB]] and is colored in #ff8888
+    [フラワーフィッシュ(61)] happens 61 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%95%E3%83%A9%E3%83%AF%E3%83%BC%E3%83%95%E3%82%A3%E3%83%83%E3%82%B7%E3%83%A5]] and is colored in #ff8888
+    [マムート(61)] happens 61 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%9E%E3%83%A0%E3%83%BC%E3%83%88]] and is colored in #ff8888
+    [マングスター(62)] happens 62 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%9E%E3%83%B3%E3%82%B0%E3%82%B9%E3%82%BF%E3%83%BC]] and is colored in #ff8888
+    [妖狐(62)] happens 62 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E5%A6%96%E7%8B%90%2F%E6%97%A7%E4%B8%8B%E7%94%BA]] and is colored in #ff8888
+    [シュリンプ(62)] happens 62 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%B7%E3%83%A5%E3%83%AA%E3%83%B3%E3%83%97]] and is colored in #ff8888
+    [ジュニアガーゴイル(62)] happens 62 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%B8%E3%83%A5%E3%83%8B%E3%82%A2%E3%82%AC%E3%83%BC%E3%82%B4%E3%82%A4%E3%83%AB]] and is colored in #ff8888
+    [チャックマ(63)] happens 63 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%81%E3%83%A3%E3%83%83%E3%82%AF%E3%83%9E]] and is colored in #ff8888
+    [ピンクユンカー(63)] happens 63 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%94%E3%83%B3%E3%82%AF%E3%83%A6%E3%83%B3%E3%82%AB%E3%83%BC]] and is colored in #ff8888
+    [マッスルストーン(63)] happens 63 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%9E%E3%83%83%E3%82%B9%E3%83%AB%E3%82%B9%E3%83%88%E3%83%BC%E3%83%B3]] and is colored in #ff8888
+    [セルフ(63)] happens 63 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%BB%E3%83%AB%E3%83%95]] and is colored in #ff8888
+    [ピンクックマ(64)] happens 64 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%94%E3%83%B3%E3%82%AF%E3%83%83%E3%82%AF%E3%83%9E]] and is colored in #ff8888
+    [スカイユンカー(64)] happens 64 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%B9%E3%82%AB%E3%82%A4%E3%83%A6%E3%83%B3%E3%82%AB%E3%83%BC]] and is colored in #ff8888
+    [プラズマ(64)] happens 64 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%97%E3%83%A9%E3%82%BA%E3%83%9E%2F%E6%97%A7%E4%B8%8B%E7%94%BA]] and is colored in #ff8888
+    [メタモルプラズマ(64)] happens 64 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%A1%E3%82%BF%E3%83%A2%E3%83%AB%E3%83%97%E3%83%A9%E3%82%BA%E3%83%9E%2F%E6%97%A7%E4%B8%8B%E7%94%BA]] and is colored in #ff8888
+    [マスクフィッシュ(64)] happens 64 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%9E%E3%82%B9%E3%82%AF%E3%83%95%E3%82%A3%E3%83%83%E3%82%B7%E3%83%A5]] and is colored in #ff8888
+    [憑依されたムヨン(64)] happens 64 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E6%86%91%E4%BE%9D%E3%81%95%E3%82%8C%E3%81%9F%E3%83%A0%E3%83%A8%E3%83%B3]] and is colored in #ff8888
+    [クロワーパンダ(65)] happens 65 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%AF%E3%83%AD%E3%83%AF%E3%83%BC%E3%83%91%E3%83%B3%E3%83%80]] and is colored in #ff8888
+    [クラウンパス(65)] happens 65 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%AF%E3%83%A9%E3%82%A6%E3%83%B3%E3%83%91%E3%82%B9]] and is colored in #ff8888
+    [黒テン(65)] happens 65 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E9%BB%92%E3%83%86%E3%83%B3]] and is colored in #ff8888
+    [クレーンゲーム機(65)] happens 65 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%AF%E3%83%AC%E3%83%BC%E3%83%B3%E3%82%B2%E3%83%BC%E3%83%A0%E6%A9%9F%28%E3%83%AC%E3%82%A4%E3%83%89%29]] and is colored in #ff8888
+    [スターディマッスルストーン(65)] happens 65 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%B9%E3%82%BF%E3%83%BC%E3%83%87%E3%82%A3%E3%83%9E%E3%83%83%E3%82%B9%E3%83%AB%E3%82%B9%E3%83%88%E3%83%BC%E3%83%B3]] and is colored in #ff8888
+    [女山賊(65)] happens 65 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E5%A5%B3%E5%B1%B1%E8%B3%8A]] and is colored in #ff8888
+    [非常用警備ロボットL(65)] happens 65 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E9%9D%9E%E5%B8%B8%E7%94%A8%E8%AD%A6%E5%82%99%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88L]] and is colored in #ff8888
+    [おキツネ様(65)] happens 65 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%81%8A%E3%82%AD%E3%83%84%E3%83%8D%E6%A7%98]] and is colored in #ff8888
+    [ドキパム(66)] happens 66 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%89%E3%82%AD%E3%83%91%E3%83%A0]] and is colored in #ff8888
+    [ブラックアシャー(66)] happens 66 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%96%E3%83%A9%E3%83%83%E3%82%AF%E3%82%A2%E3%82%B7%E3%83%A3%E3%83%BC]] and is colored in #ff8888
+    [ミストアシャー(66)] happens 66 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%9F%E3%82%B9%E3%83%88%E3%82%A2%E3%82%B7%E3%83%A3%E3%83%BC]] and is colored in #ff8888
+    [黄鬼(66)] happens 66 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E9%BB%84%E9%AC%BC%2F%E6%97%A7%E4%B8%8B%E7%94%BA]] and is colored in #ff8888
+    [青鬼(66)] happens 66 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E9%9D%92%E9%AC%BC%2F%E6%97%A7%E4%B8%8B%E7%94%BA]] and is colored in #ff8888
+    [緑鬼(66)] happens 66 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E7%B7%91%E9%AC%BC%2F%E6%97%A7%E4%B8%8B%E7%94%BA]] and is colored in #ff8888
+    [ジュニアバルログ(66)] happens 66 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%B8%E3%83%A5%E3%83%8B%E3%82%A2%E3%83%90%E3%83%AB%E3%83%AD%E3%82%B0]] and is colored in #ff8888
+    [覗くデイビーゾーン(66)] happens 66 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E8%A6%97%E3%81%8F%E3%83%87%E3%82%A4%E3%83%93%E3%83%BC%E3%82%BE%E3%83%BC%E3%83%B3]] and is colored in #ff8888
+    [スキューバペペ(66)] happens 66 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%B9%E3%82%AD%E3%83%A5%E3%83%BC%E3%83%90%E3%83%9A%E3%83%9A]] and is colored in #ff8888
+    [イリオス(67)] happens 67 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%A4%E3%83%AA%E3%82%AA%E3%82%B9]] and is colored in #ff8888
+    [ナイトブロック(67)] happens 67 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%8A%E3%82%A4%E3%83%88%E3%83%96%E3%83%AD%E3%83%83%E3%82%AF]] and is colored in #ff8888
+    [スナウサギ(♀)(67)] happens 67 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%B9%E3%83%8A%E3%82%A6%E3%82%B5%E3%82%AE%28%E2%99%80%29]] and is colored in #ff8888
+    [パペットゴーレム(67)] happens 67 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%91%E3%83%9A%E3%83%83%E3%83%88%E3%82%B4%E3%83%BC%E3%83%AC%E3%83%A0]] and is colored in #ff8888
+    [警備ロボット(67)] happens 67 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E8%AD%A6%E5%82%99%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88]] and is colored in #ff8888
+    [デイビーゾーン(67)] happens 67 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%87%E3%82%A4%E3%83%93%E3%83%BC%E3%82%BE%E3%83%BC%E3%83%B3]] and is colored in #ff8888
+    [アルファロボ(68)] happens 68 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%A2%E3%83%AB%E3%83%95%E3%82%A1%E3%83%AD%E3%83%9C]] and is colored in #ff8888
+    [ガーゴイル(68)] happens 68 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%AC%E3%83%BC%E3%82%B4%E3%82%A4%E3%83%AB]] and is colored in #ff8888
+    [ロムバード(68)] happens 68 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%AD%E3%83%A0%E3%83%90%E3%83%BC%E3%83%89]] and is colored in #ff8888
+    [スナウサギ(♂)(68)] happens 68 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%B9%E3%83%8A%E3%82%A6%E3%82%B5%E3%82%AE%28%E2%99%82%29]] and is colored in #ff8888
+    [ドアロック(68)] happens 68 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%89%E3%82%A2%E3%83%AD%E3%83%83%E3%82%AF]] and is colored in #ff8888
+    [ジュニアシール(68)] happens 68 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%B8%E3%83%A5%E3%83%8B%E3%82%A2%E3%82%B7%E3%83%BC%E3%83%AB]] and is colored in #ff8888
+    [ベータロボ(69)] happens 69 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%99%E3%83%BC%E3%82%BF%E3%83%AD%E3%83%9C]] and is colored in #ff8888
+    [キングブロック(69)] happens 69 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%AD%E3%83%B3%E3%82%B0%E3%83%96%E3%83%AD%E3%83%83%E3%82%AF]] and is colored in #ff8888
+    [クスコ(69)] happens 69 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%AF%E3%82%B9%E3%82%B3]] and is colored in #ff8888
+    [ミニチクタク(70)] happens 70 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%9F%E3%83%8B%E3%83%81%E3%82%AF%E3%82%BF%E3%82%AF]] and is colored in #ff8888
+    [妖怪香炉(70)] happens 70 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E5%A6%96%E6%80%AA%E9%A6%99%E7%82%89]] and is colored in #ff8888
+    [ウィンドライダー(70)] happens 70 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%A6%E3%82%A3%E3%83%B3%E3%83%89%E3%83%A9%E3%82%A4%E3%83%80%E3%83%BC]] and is colored in #ff8888
+    [ジュニアカツス(70)] happens 70 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%B8%E3%83%A5%E3%83%8B%E3%82%A2%E3%82%AB%E3%83%84%E3%82%B9]] and is colored in #ff8888
+    [パファー(70)] happens 70 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%91%E3%83%95%E3%82%A1%E3%83%BC]] and is colored in #ff8888
+    [ポイズンパファー(70)] happens 70 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%9D%E3%82%A4%E3%82%BA%E3%83%B3%E3%83%91%E3%83%95%E3%82%A1%E3%83%BC]] and is colored in #ff8888
+    [バルログの頭(70)] happens 70 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%90%E3%83%AB%E3%83%AD%E3%82%B0%E3%81%AE%E9%A0%AD%28%E3%83%8E%E3%83%BC%E3%83%9E%E3%83%AB%E3%83%A2%E3%83%BC%E3%83%89%29]] and is colored in #ff8888
+    [バルログの右手(70)] happens 70 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%90%E3%83%AB%E3%83%AD%E3%82%B0%E3%81%AE%E5%8F%B3%E6%89%8B]] and is colored in #ff8888
+    [バルログの左手(70)] happens 70 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%90%E3%83%AB%E3%83%AD%E3%82%B0%E3%81%AE%E5%B7%A6%E6%89%8B]] and is colored in #ff8888
+    [バルログの魂(70)] happens 70 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%90%E3%83%AB%E3%83%AD%E3%82%B0%E3%81%AE%E9%AD%82]] and is colored in #ff8888
+    [ラキー(70)] happens 70 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%A9%E3%82%AD%E3%83%BC]] and is colored in #ff8888
+    [ダストドワーフ(70)] happens 70 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%80%E3%82%B9%E3%83%88%E3%83%89%E3%83%AF%E3%83%BC%E3%83%95]] and is colored in #ff8888
+    [オダ軍の哨兵(70)] happens 70 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%AA%E3%83%80%E8%BB%8D%E3%81%AE%E5%93%A8%E5%85%B5]] and is colored in #ff8888
+    [チクタク(71)] happens 71 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%81%E3%82%AF%E3%82%BF%E3%82%AF]] and is colored in #ff8888
+    [ベラモア(71)] happens 71 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%99%E3%83%A9%E3%83%A2%E3%82%A2]] and is colored in #ff8888
+    [★ハイダークスター(71)] happens 71 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%EF%BC%BB%E2%98%85%EF%BC%BD%20%E3%83%8F%E3%82%A4%E3%83%80%E3%83%BC%E3%82%AF%E3%82%B9%E3%82%BF%E3%83%BC]] and is colored in #ff8888
+    [プリジャー(72)] happens 72 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%97%E3%83%AA%E3%82%B8%E3%83%A3%E3%83%BC]] and is colored in #ff8888
+    [プリルド(72)] happens 72 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%97%E3%83%AA%E3%83%AB%E3%83%89]] and is colored in #ff8888
+    [ビッグスパイダー(72)] happens 72 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%93%E3%83%83%E3%82%B0%E3%82%B9%E3%83%91%E3%82%A4%E3%83%80%E3%83%BC]] and is colored in #ff8888
+    [ガンティアン(73)] happens 73 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%AC%E3%83%B3%E3%83%86%E3%82%A3%E3%82%A2%E3%83%B3%2F%E6%97%A7%E5%9C%B0%E7%90%83%E9%98%B2%E8%A1%9B%E6%9C%AC%E9%83%A8]] and is colored in #ff8888
+    [スパーカー(73)] happens 73 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%B9%E3%83%91%E3%83%BC%E3%82%AB%E3%83%BC]] and is colored in #ff8888
+    [プコ(73)] happens 73 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%97%E3%82%B3]] and is colored in #ff8888
+    [カツス(73)] happens 73 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%AB%E3%83%84%E3%82%B9]] and is colored in #ff8888
+    [ブラックタウロマシス(73)] happens 73 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%96%E3%83%A9%E3%83%83%E3%82%AF%E3%82%BF%E3%82%A6%E3%83%AD%E3%83%9E%E3%82%B7%E3%82%B9]] and is colored in #ff8888
+    [クロノス(73)] happens 73 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%AF%E3%83%AD%E3%83%8E%E3%82%B9]] and is colored in #ff8888
+    [ヒュロイド(73)] happens 73 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%92%E3%83%A5%E3%83%AD%E3%82%A4%E3%83%89]] and is colored in #ff8888
+    [プラティアン(74)] happens 74 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%97%E3%83%A9%E3%83%86%E3%82%A3%E3%82%A2%E3%83%B3%2F%E6%97%A7%E5%9C%B0%E7%90%83%E9%98%B2%E8%A1%9B%E6%9C%AC%E9%83%A8]] and is colored in #ff8888
+    [プラトンクロノス(74)] happens 74 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%97%E3%83%A9%E3%83%88%E3%83%B3%E3%82%AF%E3%83%AD%E3%83%8E%E3%82%B9]] and is colored in #ff8888
+    [カートベア(74)] happens 74 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%AB%E3%83%BC%E3%83%88%E3%83%99%E3%82%A2]] and is colored in #ff8888
+    [メカティアン(75)] happens 75 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%A1%E3%82%AB%E3%83%86%E3%82%A3%E3%82%A2%E3%83%B3%2F%E6%97%A7%E5%9C%B0%E7%90%83%E9%98%B2%E8%A1%9B%E6%9C%AC%E9%83%A8]] and is colored in #ff8888
+    [マスタークロノス(75)] happens 75 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%9E%E3%82%B9%E3%82%BF%E3%83%BC%E3%82%AF%E3%83%AD%E3%83%8E%E3%82%B9]] and is colored in #ff8888
+    [タイマー(75)] happens 75 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%BF%E3%82%A4%E3%83%9E%E3%83%BC]] and is colored in #ff8888
+    [アイボン(75)] happens 75 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%A2%E3%82%A4%E3%83%9C%E3%83%B3]] and is colored in #ff8888
+    [赤金武術家(75)] happens 75 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E8%B5%A4%E9%87%91%E6%AD%A6%E8%A1%93%E5%AE%B6]] and is colored in #ff8888
+    [クリムゾンツリー(75)] happens 75 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%AF%E3%83%AA%E3%83%A0%E3%82%BE%E3%83%B3%E3%83%84%E3%83%AA%E3%83%BC]] and is colored in #ff8888
+    [ローヤルカツス(76)] happens 76 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%AD%E3%83%BC%E3%83%A4%E3%83%AB%E3%82%AB%E3%83%84%E3%82%B9]] and is colored in #ff8888
+    [ミヨキャッツ(76)] happens 76 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%9F%E3%83%A8%E3%82%AD%E3%83%A3%E3%83%83%E3%83%84]] and is colored in #ff8888
+    [クルリス(76)] happens 76 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%AF%E3%83%AB%E3%83%AA%E3%82%B9]] and is colored in #ff8888
+    [プンコ(76)] happens 76 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%97%E3%83%B3%E3%82%B3]] and is colored in #ff8888
+    [ソーントラップ(76)] happens 76 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%BD%E3%83%BC%E3%83%B3%E3%83%88%E3%83%A9%E3%83%83%E3%83%97]] and is colored in #ff8888
+    [ラクン(76)] happens 76 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%A9%E3%82%AF%E3%83%B3]] and is colored in #ff8888
+    [グレイ(77)] happens 77 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%B0%E3%83%AC%E3%82%A4%2F%E6%97%A7%E5%9C%B0%E7%90%83%E9%98%B2%E8%A1%9B%E6%9C%AC%E9%83%A8]] and is colored in #ff8888
+    [マフラープリルド(77)] happens 77 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%9E%E3%83%95%E3%83%A9%E3%83%BC%E3%83%97%E3%83%AA%E3%83%AB%E3%83%89]] and is colored in #ff8888
+    [ハリモグラー(77)] happens 77 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%8F%E3%83%AA%E3%83%A2%E3%82%B0%E3%83%A9%E3%83%BC]] and is colored in #ff8888
+    [スナモグラ(77)] happens 77 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%B9%E3%83%8A%E3%83%A2%E3%82%B0%E3%83%A9]] and is colored in #ff8888
+    [キューブスライム(78)] happens 78 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%AD%E3%83%A5%E3%83%BC%E3%83%96%E3%82%B9%E3%83%A9%E3%82%A4%E3%83%A0]] and is colored in #ff8888
+    [ウルトラグレイ(79)] happens 79 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%A6%E3%83%AB%E3%83%88%E3%83%A9%E3%82%B0%E3%83%AC%E3%82%A4%2F%E6%97%A7%E5%9C%B0%E7%90%83%E9%98%B2%E8%A1%9B%E6%9C%AC%E9%83%A8]] and is colored in #ff8888
+    [ダークモグラー(79)] happens 79 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%80%E3%83%BC%E3%82%AF%E3%83%A2%E3%82%B0%E3%83%A9%E3%83%BC]] and is colored in #ff8888
+    [キヨ(79)] happens 79 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%AD%E3%83%A8]] and is colored in #ff8888
+    [警備ロボットL(79)] happens 79 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E8%AD%A6%E5%82%99%E3%83%AD%E3%83%9C%E3%83%83%E3%83%88L]] and is colored in #ff8888
+    [デウ(80)] happens 80 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%87%E3%82%A6]] and is colored in #ff8888
+    [★スーパーダークスター(80)] happens 80 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%EF%BC%BB%E2%98%85%EF%BC%BD%20%E3%82%B9%E3%83%BC%E3%83%91%E3%83%BC%E3%83%80%E3%83%BC%E3%82%AF%E3%82%B9%E3%82%BF%E3%83%BC]] and is colored in #ff8888
+    [赤金棒使い(80)] happens 80 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E8%B5%A4%E9%87%91%E6%A3%92%E4%BD%BF%E3%81%84]] and is colored in #ff8888
+    [ストームブレイカー(80)] happens 80 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%B9%E3%83%88%E3%83%BC%E3%83%A0%E3%83%96%E3%83%AC%E3%82%A4%E3%82%AB%E3%83%BC]] and is colored in #ff8888
+    [ルモ(81)] happens 81 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%AB%E3%83%A2]] and is colored in #ff8888
+    [スコルピオン(81)] happens 81 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%B9%E3%82%B3%E3%83%AB%E3%83%94%E3%82%AA%E3%83%B3]] and is colored in #ff8888
+    [青花蛇(81)] happens 81 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E9%9D%92%E8%8A%B1%E8%9B%87]] and is colored in #ff8888
+    [赤花蛇(81)] happens 81 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E8%B5%A4%E8%8A%B1%E8%9B%87]] and is colored in #ff8888
+    [ジェノ(82)] happens 82 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%B8%E3%82%A7%E3%83%8E]] and is colored in #ff8888
+    [トリプルルモ(82)] happens 82 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%88%E3%83%AA%E3%83%97%E3%83%AB%E3%83%AB%E3%83%A2]] and is colored in #ff8888
+    [訓練用藁かかし(82)] happens 82 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E8%A8%93%E7%B7%B4%E7%94%A8%E8%97%81%E3%81%8B%E3%81%8B%E3%81%97]] and is colored in #ff8888
+    [ラカン(82)] happens 82 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%A9%E3%82%AB%E3%83%B3]] and is colored in #ff8888
+    [訓練用木かかし(83)] happens 83 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E8%A8%93%E7%B7%B4%E7%94%A8%E6%9C%A8%E3%81%8B%E3%81%8B%E3%81%97]] and is colored in #ff8888
+    [アイアンミュテ(83)] happens 83 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%A2%E3%82%A4%E3%82%A2%E3%83%B3%E3%83%9F%E3%83%A5%E3%83%86]] and is colored in #ff8888
+    [ヒキュー(84)] happens 84 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%92%E3%82%AD%E3%83%A5%E3%83%BC]] and is colored in #ff8888
+    [強化されたアイアンミュテ(84)] happens 84 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E5%BC%B7%E5%8C%96%E3%81%95%E3%82%8C%E3%81%9F%E3%82%A2%E3%82%A4%E3%82%A2%E3%83%B3%E3%83%9F%E3%83%A5%E3%83%86]] and is colored in #ff8888
+    [サンドドワーフ(84)] happens 84 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%B5%E3%83%B3%E3%83%89%E3%83%89%E3%83%AF%E3%83%BC%E3%83%95]] and is colored in #ff8888
+    [レッドサンドドワーフ(84)] happens 84 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%AC%E3%83%83%E3%83%89%E3%82%B5%E3%83%B3%E3%83%89%E3%83%89%E3%83%AF%E3%83%BC%E3%83%95]] and is colored in #ff8888
+    [ルルモ(84)] happens 84 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%AB%E3%83%AB%E3%83%A2]] and is colored in #ff8888
+    [白銀槍使い(85)] happens 85 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E7%99%BD%E9%8A%80%E6%A7%8D%E4%BD%BF%E3%81%84]] and is colored in #ff8888
+    [ムサベツベア(85)] happens 85 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%A0%E3%82%B5%E3%83%99%E3%83%84%E3%83%99%E3%82%A2]] and is colored in #ff8888
+    [屋台(85)] happens 85 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E5%B1%8B%E5%8F%B0]] and is colored in #ff8888
+    [屋台(85)] happens 85 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E5%B1%8B%E5%8F%B0%28%E5%9B%BD%E5%86%85%E7%94%A8%29]] and is colored in #ff8888
+    [仙人人形(86)] happens 86 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E4%BB%99%E4%BA%BA%E4%BA%BA%E5%BD%A2]] and is colored in #ff8888
+    [ミスリルミュテ(86)] happens 86 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%9F%E3%82%B9%E3%83%AA%E3%83%AB%E3%83%9F%E3%83%A5%E3%83%86]] and is colored in #ff8888
+    [強化されたミスリルミュテ(87)] happens 87 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E5%BC%B7%E5%8C%96%E3%81%95%E3%82%8C%E3%81%9F%E3%83%9F%E3%82%B9%E3%83%AA%E3%83%AB%E3%83%9F%E3%83%A5%E3%83%86]] and is colored in #ff8888
+    [防御システム(87)] happens 87 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E9%98%B2%E5%BE%A1%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0]] and is colored in #ff8888
+    [天鹿(88)] happens 88 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E5%A4%A9%E9%B9%BF]] and is colored in #ff8888
+    [自動警備システム(88)] happens 88 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E8%87%AA%E5%8B%95%E8%AD%A6%E5%82%99%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0]] and is colored in #ff8888
+    [ロイド(88)] happens 88 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%AD%E3%82%A4%E3%83%89]] and is colored in #ff8888
+    [サンドギーガ(88)] happens 88 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%B5%E3%83%B3%E3%83%89%E3%82%AE%E3%83%BC%E3%82%AC]] and is colored in #ff8888
+    [ネオヒュロイド(89)] happens 89 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%8D%E3%82%AA%E3%83%92%E3%83%A5%E3%83%AD%E3%82%A4%E3%83%89]] and is colored in #ff8888
+    [武道家パンダ(89)] happens 89 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E6%AD%A6%E9%81%93%E5%AE%B6%E3%83%91%E3%83%B3%E3%83%80]] and is colored in #ff8888
+    [D.ロイド(90)] happens 90 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?D.%E3%83%AD%E3%82%A4%E3%83%89]] and is colored in #ff8888
+    [強化された防御システム(90)] happens 90 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E5%BC%B7%E5%8C%96%E3%81%95%E3%82%8C%E3%81%9F%E9%98%B2%E5%BE%A1%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0]] and is colored in #ff8888
+    [タイルン(90)] happens 90 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%BF%E3%82%A4%E3%83%AB%E3%83%B3]] and is colored in #ff8888
+    [黄金武術家(90)] happens 90 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E9%BB%84%E9%87%91%E6%AD%A6%E8%A1%93%E5%AE%B6]] and is colored in #ff8888
+    [ファイアブランド(90)] happens 90 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%95%E3%82%A1%E3%82%A4%E3%82%A2%E3%83%96%E3%83%A9%E3%83%B3%E3%83%891]] and is colored in #ff8888
+    [ファイアブランド(90)] happens 90 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%95%E3%82%A1%E3%82%A4%E3%82%A2%E3%83%96%E3%83%A9%E3%83%B3%E3%83%89%2F%E3%83%9E%E3%82%B9%E3%83%86%E3%83%AA%E3%82%A2%E3%83%BB%E5%A4%89%E8%BA%AB%E5%BE%8C]] and is colored in #ff8888
+    [オハゼ(91)] happens 91 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%AA%E3%83%8F%E3%82%BC]] and is colored in #ff8888
+    [ルツボ(91)] happens 91 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%AB%E3%83%84%E3%83%9C]] and is colored in #ff8888
+    [モモサル(92)] happens 92 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%A2%E3%83%A2%E3%82%B5%E3%83%AB]] and is colored in #ff8888
+    [ホムン(92)] happens 92 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%9B%E3%83%A0%E3%83%B3]] and is colored in #ff8888
+    [AF型アンドロイド(93)] happens 93 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?AF%E5%9E%8B%E3%82%A2%E3%83%B3%E3%83%89%E3%83%AD%E3%82%A4%E3%83%89]] and is colored in #ff8888
+    [人参ルツボ(93)] happens 93 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E4%BA%BA%E5%8F%82%E3%83%AB%E3%83%84%E3%83%9C]] and is colored in #ff8888
+    [竹の武士(94)] happens 94 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E7%AB%B9%E3%81%AE%E6%AD%A6%E5%A3%AB]] and is colored in #ff8888
+    [キキョウ(95)] happens 95 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%AD%E3%82%AD%E3%83%A7%E3%82%A6]] and is colored in #ff8888
+    [親分(95)] happens 95 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E8%A6%AA%E5%88%86]] and is colored in #ff8888
+    [親分(95)] happens 95 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E8%A6%AA%E5%88%86%28%E3%82%A2%E3%82%B8%E3%83%88%29]] and is colored in #ff8888
+    [★バーフィー(95)] happens 95 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%EF%BC%BB%E2%98%85%EF%BC%BD%20%E3%83%90%E3%83%BC%E3%83%95%E3%82%A3%E3%83%BC]] and is colored in #ff8888
+    [猫仙人(95)] happens 95 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E7%8C%AB%E4%BB%99%E4%BA%BA]] and is colored in #ff8888
+    [サイティ(95)] happens 95 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%B5%E3%82%A4%E3%83%86%E3%82%A3]] and is colored in #ff8888
+    [エルダーレイス(95)] happens 95 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%A8%E3%83%AB%E3%83%80%E3%83%BC%E3%83%AC%E3%82%A4%E3%82%B9]] and is colored in #ff8888
+    [神仙妖怪(95)] happens 95 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E7%A5%9E%E4%BB%99%E5%A6%96%E6%80%AA]] and is colored in #ff8888
+    [スペクター戦闘犬(95)] happens 95 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%B9%E3%83%9A%E3%82%AF%E3%82%BF%E3%83%BC%E6%88%A6%E9%97%98%E7%8A%AC]] and is colored in #ff8888
+    [ブルスピ(95)] happens 95 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%96%E3%83%AB%E3%82%B9%E3%83%94]] and is colored in #ff8888
+    [キキョウ仙人(96)] happens 96 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%AD%E3%82%AD%E3%83%A7%E3%82%A6%E4%BB%99%E4%BA%BA]] and is colored in #ff8888
+    [ディトとロイ(96)] happens 96 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%87%E3%82%A3%E3%83%88%E3%81%A8%E3%83%AD%E3%82%A4]] and is colored in #ff8888
+    [オハゼキャノン(96)] happens 96 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%AA%E3%83%8F%E3%82%BC%E3%82%AD%E3%83%A3%E3%83%8E%E3%83%B3]] and is colored in #ff8888
+    [★ソウルベア(96)] happens 96 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%EF%BC%BB%E2%98%85%EF%BC%BD%20%E3%82%BD%E3%82%A6%E3%83%AB%E3%83%99%E3%82%A2]] and is colored in #ff8888
+    [故障したDF型アンドロイド(96)] happens 96 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E6%95%85%E9%9A%9C%E3%81%97%E3%81%9FDF%E5%9E%8B%E3%82%A2%E3%83%B3%E3%83%89%E3%83%AD%E3%82%A4%E3%83%89]] and is colored in #ff8888
+    [スペクター盾兵(96)] happens 96 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%B9%E3%83%9A%E3%82%AF%E3%82%BF%E3%83%BC%E7%9B%BE%E5%85%B5]] and is colored in #ff8888
+    [レッドスピ(96)] happens 96 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%AC%E3%83%83%E3%83%89%E3%82%B9%E3%83%94]] and is colored in #ff8888
+    [ダイノグ(96)] happens 96 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%80%E3%82%A4%E3%83%8E%E3%82%B0]] and is colored in #ff8888
+    [モココ(97)] happens 97 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%A2%E3%82%B3%E3%82%B3]] and is colored in #ff8888
+    [★レージバーフィー(97)] happens 97 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%EF%BC%BB%E2%98%85%EF%BC%BD%20%E3%83%AC%E3%83%BC%E3%82%B8%E3%83%90%E3%83%BC%E3%83%95%E3%82%A3%E3%83%BC]] and is colored in #ff8888
+    [スペクター労働者(97)] happens 97 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%B9%E3%83%9A%E3%82%AF%E3%82%BF%E3%83%BC%E5%8A%B4%E5%83%8D%E8%80%85]] and is colored in #ff8888
+    [ダイノル(97)] happens 97 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%80%E3%82%A4%E3%83%8E%E3%83%AB]] and is colored in #ff8888
+    [苔デンデン(98)] happens 98 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E8%8B%94%E3%83%87%E3%83%B3%E3%83%87%E3%83%B3]] and is colored in #ff8888
+    [ボーンクラピ(98)] happens 98 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%9C%E3%83%BC%E3%83%B3%E3%82%AF%E3%83%A9%E3%83%94]] and is colored in #ff8888
+    [ホムンクルー(98)] happens 98 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%9B%E3%83%A0%E3%83%B3%E3%82%AF%E3%83%AB%E3%83%BC]] and is colored in #ff8888
+    [★マスターソウルベア(98)] happens 98 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%EF%BC%BB%E2%98%85%EF%BC%BD%20%E3%83%9E%E3%82%B9%E3%82%BF%E3%83%BC%E3%82%BD%E3%82%A6%E3%83%AB%E3%83%99%E3%82%A2]] and is colored in #ff8888
+    [イエロースピ(98)] happens 98 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%A4%E3%82%A8%E3%83%AD%E3%83%BC%E3%82%B9%E3%83%94]] and is colored in #ff8888
+    [ビートル(99)] happens 99 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%93%E3%83%BC%E3%83%88%E3%83%AB]] and is colored in #ff8888
+    [クロコファミリー(99)] happens 99 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%AF%E3%83%AD%E3%82%B3%E3%83%95%E3%82%A1%E3%83%9F%E3%83%AA%E3%83%BC]] and is colored in #ff8888
+    [獅子の石像(99)] happens 99 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E7%8D%85%E5%AD%90%E3%81%AE%E7%9F%B3%E9%80%A0%28%E5%B7%A6%29]] and is colored in #ff8888
+    [獅子の石像(99)] happens 99 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E7%8D%85%E5%AD%90%E3%81%AE%E7%9F%B3%E9%80%A0%28%E5%8F%B3%29]] and is colored in #ff8888
+    [ダイノード(99)] happens 99 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%80%E3%82%A4%E3%83%8E%E3%83%BC%E3%83%89]] and is colored in #ff8888
+    [ツリーロード(100)] happens 100 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%84%E3%83%AA%E3%83%BC%E3%83%AD%E3%83%BC%E3%83%89]] and is colored in #ff8888
+    [白銀巨人(100)] happens 100 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E7%99%BD%E9%8A%80%E5%B7%A8%E4%BA%BA]] and is colored in #ff8888
+    [レッサーバルログ(100)] happens 100 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%AC%E3%83%83%E3%82%B5%E3%83%BC%E3%83%90%E3%83%AB%E3%83%AD%E3%82%B0]] and is colored in #ff8888
+    [★時間の球(100)] happens 100 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%EF%BC%BB%E2%98%85%EF%BC%BD%20%E6%99%82%E9%96%93%E3%81%AE%E7%90%83]] and is colored in #ff8888
+    [グリュード(100)] happens 100 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%B0%E3%83%AA%E3%83%A5%E3%83%BC%E3%83%89]] and is colored in #ff8888
+    [ホムンスキュラ(100)] happens 100 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%9B%E3%83%A0%E3%83%B3%E3%82%B9%E3%82%AD%E3%83%A5%E3%83%A9]] and is colored in #ff8888
+    [タイホン(100)] happens 100 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%BF%E3%82%A4%E3%83%9B%E3%83%B3]] and is colored in #ff8888
+    [ナイトシャドー(100)] happens 100 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%8A%E3%82%A4%E3%83%88%E3%82%B7%E3%83%A3%E3%83%89%E3%83%BC]] and is colored in #ff8888
+    [ヘッドネスホースマン(100)] happens 100 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%98%E3%83%83%E3%83%89%E3%83%8D%E3%82%B9%E3%83%9B%E3%83%BC%E3%82%B9%E3%83%9E%E3%83%B3]] and is colored in #ff8888
+    [ムカデ妖怪(100)] happens 100 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%A0%E3%82%AB%E3%83%87%E5%A6%96%E6%80%AA]] and is colored in #ff8888
+    [騎士の石像(100)] happens 100 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E9%A8%8E%E5%A3%AB%E3%81%AE%E7%9F%B3%E9%80%A0%28%E5%B7%A6%29]] and is colored in #ff8888
+    [騎士の石像(100)] happens 100 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E9%A8%8E%E5%A3%AB%E3%81%AE%E7%9F%B3%E9%80%A0%28%E5%8F%B3%29]] and is colored in #ff8888
+    [スペクター訓練師(100)] happens 100 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%B9%E3%83%9A%E3%82%AF%E3%82%BF%E3%83%BC%E8%A8%93%E7%B7%B4%E5%B8%AB]] and is colored in #ff8888
+    [モリョン(101)] happens 101 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%A2%E3%83%AA%E3%83%A7%E3%83%B3]] and is colored in #ff8888
+    [鉱石イーター(101)] happens 101 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E9%89%B1%E7%9F%B3%E3%82%A4%E3%83%BC%E3%82%BF%E3%83%BC]] and is colored in #ff8888
+    [ゲリラスペクター(101)] happens 101 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%B2%E3%83%AA%E3%83%A9%E3%82%B9%E3%83%9A%E3%82%AF%E3%82%BF%E3%83%BC]] and is colored in #ff8888
+    [苔キノコ(102)] happens 102 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E8%8B%94%E3%82%AD%E3%83%8E%E3%82%B3]] and is colored in #ff8888
+    [★イービルクロック(102)] happens 102 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%EF%BC%BB%E2%98%85%EF%BC%BD%20%E3%82%A4%E3%83%BC%E3%83%93%E3%83%AB%E3%82%AF%E3%83%AD%E3%83%83%E3%82%AF]] and is colored in #ff8888
+    [ビッグフット(102)] happens 102 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%93%E3%83%83%E3%82%B0%E3%83%95%E3%83%83%E3%83%88]] and is colored in #ff8888
+    [キメラ(102)] happens 102 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%AD%E3%83%A1%E3%83%A9]] and is colored in #ff8888
+    [スペクターエンジニア(102)] happens 102 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%B9%E3%83%9A%E3%82%AF%E3%82%BF%E3%83%BC%E3%82%A8%E3%83%B3%E3%82%B8%E3%83%8B%E3%82%A2]] and is colored in #ff8888
+    [カオスエメホーク(103)] happens 103 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%AB%E3%82%AA%E3%82%B9%E3%82%A8%E3%83%A1%E3%83%9B%E3%83%BC%E3%82%AF]] and is colored in #ff8888
+    [カオスヴァーグル(103)] happens 103 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%AB%E3%82%AA%E3%82%B9%E3%83%B4%E3%82%A1%E3%83%BC%E3%82%B0%E3%83%AB]] and is colored in #ff8888
+    [クルー(103)] happens 103 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%AF%E3%83%AB%E3%83%BC]] and is colored in #ff8888
+    [ダークモココ(103)] happens 103 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%80%E3%83%BC%E3%82%AF%E3%83%A2%E3%82%B3%E3%82%B3]] and is colored in #ff8888
+    [リセルグリュード(103)] happens 103 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%AA%E3%82%BB%E3%83%AB%E3%82%B0%E3%83%AA%E3%83%A5%E3%83%BC%E3%83%89]] and is colored in #ff8888
+    [力士スペクター(103)] happens 103 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E5%8A%9B%E5%A3%AB%E3%82%B9%E3%83%9A%E3%82%AF%E3%82%BF%E3%83%BC]] and is colored in #ff8888
+    [ストーンバグ(104)] happens 104 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%B9%E3%83%88%E3%83%BC%E3%83%B3%E3%83%90%E3%82%B0]] and is colored in #ff8888
+    [★パープン(104)] happens 104 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%EF%BC%BB%E2%98%85%EF%BC%BD%20%E3%83%91%E3%83%BC%E3%83%97%E3%83%B3]] and is colored in #ff8888
+    [アーマードビートル(105)] happens 105 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%A2%E3%83%BC%E3%83%9E%E3%83%BC%E3%83%89%E3%83%93%E3%83%BC%E3%83%88%E3%83%AB]] and is colored in #ff8888
+    [ウッドフィッシュ(105)] happens 105 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%A6%E3%83%83%E3%83%89%E3%83%95%E3%82%A3%E3%83%83%E3%82%B7%E3%83%A5]] and is colored in #ff8888
+    [グレートモリョン(105)] happens 105 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%B0%E3%83%AC%E3%83%BC%E3%83%88%E3%83%A2%E3%83%AA%E3%83%A7%E3%83%B3]] and is colored in #ff8888
+    [★ダークイービルクロック(105)] happens 105 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%EF%BC%BB%E2%98%85%EF%BC%BD%20%E3%83%80%E3%83%BC%E3%82%AF%E3%82%A4%E3%83%BC%E3%83%93%E3%83%AB%E3%82%AF%E3%83%AD%E3%83%83%E3%82%AF]] and is colored in #ff8888
+    [マスターガーディアン(105)] happens 105 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%9E%E3%82%B9%E3%82%BF%E3%83%BC%E3%82%AC%E3%83%BC%E3%83%87%E3%82%A3%E3%82%A2%E3%83%B3]] and is colored in #ff8888
+    [マーガナ(105)] happens 105 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%9E%E3%83%BC%E3%82%AC%E3%83%8A%28%E3%83%9C%E3%82%B9%E3%82%BD%E3%83%AD%29]] and is colored in #ff8888
+    [シャクラー(105)] happens 105 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%B7%E3%83%A3%E3%82%AF%E3%83%A9%E3%83%BC]] and is colored in #ff8888
+    [マスタークルー(105)] happens 105 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%9E%E3%82%B9%E3%82%BF%E3%83%BC%E3%82%AF%E3%83%AB%E3%83%BC]] and is colored in #ff8888
+    [ポイズンゴーレム(105)] happens 105 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%9D%E3%82%A4%E3%82%BA%E3%83%B3%E3%82%B4%E3%83%BC%E3%83%AC%E3%83%A0%28%E3%83%91%E3%83%BC%E3%82%AF%29]] and is colored in #ff8888
+    [強化型ポイズンゴーレム(105)] happens 105 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E5%BC%B7%E5%8C%96%E5%9E%8B%E3%83%9D%E3%82%A4%E3%82%BA%E3%83%B3%E3%82%B4%E3%83%BC%E3%83%AC%E3%83%A0%28%E3%83%91%E3%83%BC%E3%82%AF%29]] and is colored in #ff8888
+    [魔法使いスペクター(105)] happens 105 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E9%AD%94%E6%B3%95%E4%BD%BF%E3%81%84%E3%82%B9%E3%83%9A%E3%82%AF%E3%82%BF%E3%83%BC]] and is colored in #ff8888
+    [原始イノシシ(106)] happens 106 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E5%8E%9F%E5%A7%8B%E3%82%A4%E3%83%8E%E3%82%B7%E3%82%B7]] and is colored in #ff8888
+    [★ホットパープン(106)] happens 106 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%EF%BC%BB%E2%98%85%EF%BC%BD%20%E3%83%9B%E3%83%83%E3%83%88%E3%83%91%E3%83%BC%E3%83%97%E3%83%B3]] and is colored in #ff8888
+    [マスターモリョン(106)] happens 106 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%9E%E3%82%B9%E3%82%BF%E3%83%BC%E3%83%A2%E3%83%AA%E3%83%A7%E3%83%B3]] and is colored in #ff8888
+    [紫の試薬の被造物(106)] happens 106 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E7%B4%AB%E3%81%AE%E8%A9%A6%E8%96%AC%E3%81%AE%E8%A2%AB%E9%80%A0%E7%89%A9]] and is colored in #ff8888
+    [赤いビクターの被造物(106)] happens 106 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E8%B5%A4%E3%81%84%E3%83%93%E3%82%AF%E3%82%BF%E3%83%BC%E3%81%AE%E8%A2%AB%E9%80%A0%E7%89%A9]] and is colored in #ff8888
+    [悪鬼(107)] happens 107 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E6%82%AA%E9%AC%BC]] and is colored in #ff8888
+    [コールドシャクラー(107)] happens 107 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%B3%E3%83%BC%E3%83%AB%E3%83%89%E3%82%B7%E3%83%A3%E3%82%AF%E3%83%A9%E3%83%BC]] and is colored in #ff8888
+    [ドラゴニカ(107)] happens 107 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%89%E3%83%A9%E3%82%B4%E3%83%8B%E3%82%AB]] and is colored in #ff8888
+    [乱暴な原始イノシシ(107)] happens 107 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E4%B9%B1%E6%9A%B4%E3%81%AA%E5%8E%9F%E5%A7%8B%E3%82%A4%E3%83%8E%E3%82%B7%E3%82%B7]] and is colored in #ff8888
+    [赤い試薬の被造物(107)] happens 107 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E8%B5%A4%E3%81%84%E8%A9%A6%E8%96%AC%E3%81%AE%E8%A2%AB%E9%80%A0%E7%89%A9]] and is colored in #ff8888
+    [青いビクターの被造物(107)] happens 107 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E9%9D%92%E3%81%84%E3%83%93%E3%82%AF%E3%82%BF%E3%83%BC%E3%81%AE%E8%A2%AB%E9%80%A0%E7%89%A9]] and is colored in #ff8888
+    [大王ムカデ(108)] happens 108 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E5%A4%A7%E7%8E%8B%E3%83%A0%E3%82%AB%E3%83%87%28%E5%9B%BD%E5%86%85%E7%94%A8%29]] and is colored in #ff8888
+    [エンシェントフェアリー(108)] happens 108 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%A8%E3%83%B3%E3%82%B7%E3%82%A7%E3%83%B3%E3%83%88%E3%83%95%E3%82%A7%E3%82%A2%E3%83%AA%E3%83%BC]] and is colored in #ff8888
+    [ハーピー(109)] happens 109 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%8F%E3%83%BC%E3%83%94%E3%83%BC]] and is colored in #ff8888
+    [シャイニングフェアリー(109)] happens 109 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%B7%E3%83%A3%E3%82%A4%E3%83%8B%E3%83%B3%E3%82%B0%E3%83%95%E3%82%A7%E3%82%A2%E3%83%AA%E3%83%BC]] and is colored in #ff8888
+    [★パイレーツ(110)] happens 110 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%EF%BC%BB%E2%98%85%EF%BC%BD%20%E3%83%91%E3%82%A4%E3%83%AC%E3%83%BC%E3%83%84]] and is colored in #ff8888
+    [パイレーツ(110)] happens 110 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%91%E3%82%A4%E3%83%AC%E3%83%BC%E3%83%84%28%E3%83%8D%E3%83%83%E3%83%88%E3%82%AB%E3%83%95%E3%82%A7%29]] and is colored in #ff8888
+    [ワルメンボウ(110)] happens 110 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%AF%E3%83%AB%E3%83%A1%E3%83%B3%E3%83%9C%E3%82%A6%2F%E5%8F%B3]] and is colored in #ff8888
+    [ワルメンボウ(110)] happens 110 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%AF%E3%83%AB%E3%83%A1%E3%83%B3%E3%83%9C%E3%82%A6%2F%E5%B7%A6]] and is colored in #ff8888
+    [ジャクム(110)] happens 110 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%B8%E3%83%A3%E3%82%AF%E3%83%A0]] and is colored in #ff8888
+    [ジャクム腕(110)] happens 110 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%B8%E3%83%A3%E3%82%AF%E3%83%A0%E8%85%951]] and is colored in #ff8888
+    [ジャクム腕(110)] happens 110 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%B8%E3%83%A3%E3%82%AF%E3%83%A0%E8%85%952]] and is colored in #ff8888
+    [ジャクム腕(110)] happens 110 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%B8%E3%83%A3%E3%82%AF%E3%83%A0%E8%85%953]] and is colored in #ff8888
+    [ジャクム腕(110)] happens 110 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%B8%E3%83%A3%E3%82%AF%E3%83%A0%E8%85%954]] and is colored in #ff8888
+    [ジャクム腕(110)] happens 110 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%B8%E3%83%A3%E3%82%AF%E3%83%A0%E8%85%955]] and is colored in #ff8888
+    [ジャクム腕(110)] happens 110 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%B8%E3%83%A3%E3%82%AF%E3%83%A0%E8%85%956]] and is colored in #ff8888
+    [ジャクム腕(110)] happens 110 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%B8%E3%83%A3%E3%82%AF%E3%83%A0%E8%85%957]] and is colored in #ff8888
+    [ジャクム腕(110)] happens 110 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%B8%E3%83%A3%E3%82%AF%E3%83%A0%E8%85%958]] and is colored in #ff8888
+    [チョコ(110)] happens 110 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%81%E3%83%A7%E3%82%B3]] and is colored in #ff8888
+    [チャウ(110)] happens 110 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%81%E3%83%A3%E3%82%A6]] and is colored in #ff8888
+    [精鋭スケルトンナイト(110)] happens 110 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E7%B2%BE%E9%8B%AD%E3%82%B9%E3%82%B1%E3%83%AB%E3%83%88%E3%83%B3%E3%83%8A%E3%82%A4%E3%83%881%28%E3%82%A4%E3%83%BC%E3%82%B8%E3%83%BC%29]] and is colored in #ff8888
+    [精鋭スケルトンナイト(110)] happens 110 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E7%B2%BE%E9%8B%AD%E3%82%B9%E3%82%B1%E3%83%AB%E3%83%88%E3%83%B3%E3%83%8A%E3%82%A4%E3%83%882%28%E3%82%A4%E3%83%BC%E3%82%B8%E3%83%BC%29]] and is colored in #ff8888
+    [★デスマリオネット(112)] happens 112 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%EF%BC%BB%E2%98%85%EF%BC%BD%20%E3%83%87%E3%82%B9%E3%83%9E%E3%83%AA%E3%82%AA%E3%83%8D%E3%83%83%E3%83%88]] and is colored in #ff8888
+    [ブラッドハーピー(112)] happens 112 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%96%E3%83%A9%E3%83%83%E3%83%89%E3%83%8F%E3%83%BC%E3%83%94%E3%83%BC]] and is colored in #ff8888
+    [マスターハーピー(113)] happens 113 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%9E%E3%82%B9%E3%82%BF%E3%83%BC%E3%83%8F%E3%83%BC%E3%83%94%E3%83%BC]] and is colored in #ff8888
+    [バク(114)] happens 114 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%90%E3%82%AF]] and is colored in #ff8888
+    [★ブレイブパイレーツ(114)] happens 114 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%EF%BC%BB%E2%98%85%EF%BC%BD%20%E3%83%96%E3%83%AC%E3%82%A4%E3%83%96%E3%83%91%E3%82%A4%E3%83%AC%E3%83%BC%E3%83%84]] and is colored in #ff8888
+    [ネクロマンサー(115)] happens 115 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%8D%E3%82%AF%E3%83%AD%E3%83%9E%E3%83%B3%E3%82%B5%E3%83%BC]] and is colored in #ff8888
+    [一番目の塔のアニ(115)] happens 115 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E4%B8%80%E7%95%AA%E7%9B%AE%E3%81%AE%E5%A1%94%E3%81%AE%E3%82%A2%E3%83%8B]] and is colored in #ff8888
+    [門番クロキ(115)] happens 115 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E9%96%80%E7%95%AA%E3%82%AF%E3%83%AD%E3%82%AD]] and is colored in #ff8888
+    [エピネア(115)] happens 115 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%A8%E3%83%94%E3%83%8D%E3%82%A2]] and is colored in #ff8888
+    [レッドクロキ(115)] happens 115 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%AC%E3%83%83%E3%83%89%E3%82%AF%E3%83%AD%E3%82%AD%2FQ%E4%B8%80%E7%95%AA%E7%9B%AE%E3%81%AE%E9%96%A2%E9%96%80]] and is colored in #ff8888
+    [ブラッドトゥース(115)] happens 115 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%96%E3%83%A9%E3%83%83%E3%83%89%E3%83%88%E3%82%A5%E3%83%BC%E3%82%B91%28%E3%82%A4%E3%83%BC%E3%82%B8%E3%83%BC%29]] and is colored in #ff8888
+    [ブラッドトゥース(115)] happens 115 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%96%E3%83%A9%E3%83%83%E3%83%89%E3%83%88%E3%82%A5%E3%83%BC%E3%82%B92%28%E3%82%A4%E3%83%BC%E3%82%B8%E3%83%BC%29]] and is colored in #ff8888
+    [デッドリーアルター(115)] happens 115 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%87%E3%83%83%E3%83%89%E3%83%AA%E3%83%BC%E3%82%A2%E3%83%AB%E3%82%BF%E3%83%BC%28%E3%82%A4%E3%83%BC%E3%82%B8%E3%83%BC%29]] and is colored in #ff8888
+    [死神スペクター(115)] happens 115 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E6%AD%BB%E7%A5%9E%E3%82%B9%E3%83%9A%E3%82%AF%E3%82%BF%E3%83%BC]] and is colored in #ff8888
+    [★マスターデスマリオネット(116)] happens 116 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%EF%BC%BB%E2%98%85%EF%BC%BD%20%E3%83%9E%E3%82%B9%E3%82%BF%E3%83%BC%E3%83%87%E3%82%B9%E3%83%9E%E3%83%AA%E3%82%AA%E3%83%8D%E3%83%83%E3%83%88]] and is colored in #ff8888
+    [ホーンバク(116)] happens 116 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%9B%E3%83%BC%E3%83%B3%E3%83%90%E3%82%AF]] and is colored in #ff8888
+    [イェティ(117)] happens 117 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%A4%E3%82%A7%E3%83%86%E3%82%A3]] and is colored in #ff8888
+    [メタモルイェティ(117)] happens 117 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%A1%E3%82%BF%E3%83%A2%E3%83%AB%E3%82%A4%E3%82%A7%E3%83%86%E3%82%A3]] and is colored in #ff8888
+    [マスターバク(117)] happens 117 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%9E%E3%82%B9%E3%82%BF%E3%83%BC%E3%83%90%E3%82%AF]] and is colored in #ff8888
+    [看守ボア(117)] happens 117 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E7%9C%8B%E5%AE%88%E3%83%9C%E3%82%A2]] and is colored in #ff8888
+    [看守ライノ(117)] happens 117 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E7%9C%8B%E5%AE%88%E3%83%A9%E3%82%A4%E3%83%8E]] and is colored in #ff8888
+    [ケンタウロス(118)] happens 118 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%B1%E3%83%B3%E3%82%BF%E3%82%A6%E3%83%AD%E3%82%B9]] and is colored in #ff8888
+    [バーンケンタウロス(118)] happens 118 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%90%E3%83%BC%E3%83%B3%E3%82%B1%E3%83%B3%E3%82%BF%E3%82%A6%E3%83%AD%E3%82%B9]] and is colored in #ff8888
+    [フリーズケンタウロス(118)] happens 118 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%95%E3%83%AA%E3%83%BC%E3%82%BA%E3%82%B1%E3%83%B3%E3%82%BF%E3%82%A6%E3%83%AD%E3%82%B9]] and is colored in #ff8888
+    [レーンディア(118)] happens 118 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%AC%E3%83%BC%E3%83%B3%E3%83%87%E3%82%A3%E3%82%A2]] and is colored in #ff8888
+    [ウェンディゴ(119)] happens 119 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%A6%E3%82%A7%E3%83%B3%E3%83%87%E3%82%A3%E3%82%B4]] and is colored in #ff8888
+    [メタモルウェンディゴ(119)] happens 119 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%A1%E3%82%BF%E3%83%A2%E3%83%AB%E3%82%A6%E3%82%A7%E3%83%B3%E3%83%87%E3%82%A3%E3%82%B4]] and is colored in #ff8888
+    [★バイキング(119)] happens 119 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%EF%BC%BB%E2%98%85%EF%BC%BD%20%E3%83%90%E3%82%A4%E3%82%AD%E3%83%B3%E3%82%B0]] and is colored in #ff8888
+    [ケンタウルスキング(119)] happens 119 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%B1%E3%83%B3%E3%82%BF%E3%82%A6%E3%83%AB%E3%82%B9%E3%82%AD%E3%83%B3%E3%82%B0]] and is colored in #ff8888
+    [スカーレットフェニックス(120)] happens 120 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%B9%E3%82%AB%E3%83%BC%E3%83%AC%E3%83%83%E3%83%88%E3%83%95%E3%82%A7%E3%83%8B%E3%83%83%E3%82%AF%E3%82%B9]] and is colored in #ff8888
+    [アズールオセロット(120)] happens 120 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%A2%E3%82%BA%E3%83%BC%E3%83%AB%E3%82%AA%E3%82%BB%E3%83%AD%E3%83%83%E3%83%88]] and is colored in #ff8888
+    [ブラックバード(120)] happens 120 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%96%E3%83%A9%E3%83%83%E3%82%AF%E3%83%90%E3%83%BC%E3%83%89]] and is colored in #ff8888
+    [グリフォン(120)] happens 120 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%B0%E3%83%AA%E3%83%95%E3%82%A9%E3%83%B3]] and is colored in #ff8888
+    [レッドドラゴン(120)] happens 120 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%AC%E3%83%83%E3%83%89%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3]] and is colored in #ff8888
+    [二番目の塔のアニ(120)] happens 120 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E4%BA%8C%E7%95%AA%E7%9B%AE%E3%81%AE%E5%A1%94%E3%81%AE%E3%82%A2%E3%83%8B]] and is colored in #ff8888
+    [ブラッドレーンディア(120)] happens 120 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%96%E3%83%A9%E3%83%83%E3%83%89%E3%83%AC%E3%83%BC%E3%83%B3%E3%83%87%E3%82%A3%E3%82%A2]] and is colored in #ff8888
+    [看守アニ(120)] happens 120 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E7%9C%8B%E5%AE%88%E3%82%A2%E3%83%8B]] and is colored in #ff8888
+    [束縛の陰陽師(120)] happens 120 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E6%9D%9F%E7%B8%9B%E3%81%AE%E9%99%B0%E9%99%BD%E5%B8%AB%2F%E3%83%8E%E3%83%BC%E3%83%9E%E3%83%AB]] and is colored in #ff8888
+    [治癒の陰陽師(120)] happens 120 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E6%B2%BB%E7%99%92%E3%81%AE%E9%99%B0%E9%99%BD%E5%B8%AB%2F%E3%83%8E%E3%83%BC%E3%83%9E%E3%83%AB]] and is colored in #ff8888
+    [ヒルラ(120)] happens 120 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%92%E3%83%AB%E3%83%A9%28%E3%82%A4%E3%83%BC%E3%82%B8%E3%83%BC%29]] and is colored in #ff8888
+    [トレグロ(120)] happens 120 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%88%E3%83%AC%E3%82%B0%E3%83%AD]] and is colored in #ff8888
+    [★ファントムウォッチ(121)] happens 121 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%EF%BC%BB%E2%98%85%EF%BC%BD%20%E3%83%95%E3%82%A1%E3%83%B3%E3%83%88%E3%83%A0%E3%82%A6%E3%82%A9%E3%83%83%E3%83%81]] and is colored in #ff8888
+    [イェティとペペ(122)] happens 122 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%A4%E3%82%A7%E3%83%86%E3%82%A3%E3%81%A8%E3%83%9A%E3%83%9A]] and is colored in #ff8888
+    [スノウマン(122)] happens 122 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%B9%E3%83%8E%E3%82%A6%E3%83%9E%E3%83%B3]] and is colored in #ff8888
+    [★マジェスティックバイキング(122)] happens 122 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%EF%BC%BB%E2%98%85%EF%BC%BD%20%E3%83%9E%E3%82%B8%E3%82%A7%E3%82%B9%E3%83%86%E3%82%A3%E3%83%83%E3%82%AF%E3%83%90%E3%82%A4%E3%82%AD%E3%83%B3%E3%82%B0]] and is colored in #ff8888
+    [フライアイ(122)] happens 122 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%95%E3%83%A9%E3%82%A4%E3%82%A2%E3%82%A4]] and is colored in #ff8888
+    [ベアウルフ(122)] happens 122 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%99%E3%82%A2%E3%82%A6%E3%83%AB%E3%83%95]] and is colored in #ff8888
+    [★ブルドック(123)] happens 123 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%EF%BC%BB%E2%98%85%EF%BC%BD%20%E3%83%96%E3%83%AB%E3%83%89%E3%83%83%E3%82%AF]] and is colored in #ff8888
+    [ミニキャッスルゴーレム(123)] happens 123 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%9F%E3%83%8B%E3%82%AD%E3%83%A3%E3%83%83%E3%82%B9%E3%83%AB%E3%82%B4%E3%83%BC%E3%83%AC%E3%83%A0]] and is colored in #ff8888
+    [ウェンディゴとダークペペ(124)] happens 124 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%A6%E3%82%A7%E3%83%B3%E3%83%87%E3%82%A3%E3%82%B4%E3%81%A8%E3%83%80%E3%83%BC%E3%82%AF%E3%83%9A%E3%83%9A]] and is colored in #ff8888
+    [★G.ファントムウォッチ(124)] happens 124 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%EF%BC%BB%E2%98%85%EF%BC%BD%20G.%E3%83%95%E3%82%A1%E3%83%B3%E3%83%88%E3%83%A0%E3%82%A6%E3%82%A9%E3%83%83%E3%83%81]] and is colored in #ff8888
+    [ビクター(124)] happens 124 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%93%E3%82%AF%E3%82%BF%E3%83%BC]] and is colored in #ff8888
+    [★ビシャスプラント(125)] happens 125 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%EF%BC%BB%E2%98%85%EF%BC%BD%20%E3%83%93%E3%82%B7%E3%83%A3%E3%82%B9%E3%83%97%E3%83%A9%E3%83%B3%E3%83%88]] and is colored in #ff8888
+    [★ファントムプラント(125)] happens 125 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%EF%BC%BB%E2%98%85%EF%BC%BD%20%E3%83%95%E3%82%A1%E3%83%B3%E3%83%88%E3%83%A0%E3%83%97%E3%83%A9%E3%83%B3%E3%83%88]] and is colored in #ff8888
+    [グレイヴァルチャー(125)] happens 125 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%B0%E3%83%AC%E3%82%A4%E3%83%B4%E3%82%A1%E3%83%AB%E3%83%81%E3%83%A3%E3%83%BC]] and is colored in #ff8888
+    [三番目の塔のアニ(125)] happens 125 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E4%B8%89%E7%95%AA%E7%9B%AE%E3%81%AE%E5%A1%94%E3%81%AE%E3%82%A2%E3%83%8B]] and is colored in #ff8888
+    [デモンガーゴイル(125)] happens 125 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%87%E3%83%A2%E3%83%B3%E3%82%AC%E3%83%BC%E3%82%B4%E3%82%A4%E3%83%AB]] and is colored in #ff8888
+    [ドリオン(125)] happens 125 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%89%E3%83%AA%E3%82%AA%E3%83%B3]] and is colored in #ff8888
+    [★タナトス(126)] happens 126 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%EF%BC%BB%E2%98%85%EF%BC%BD%20%E3%82%BF%E3%83%8A%E3%83%88%E3%82%B9]] and is colored in #ff8888
+    [★ゲートキーパー(126)] happens 126 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%EF%BC%BB%E2%98%85%EF%BC%BD%20%E3%82%B2%E3%83%BC%E3%83%88%E3%82%AD%E3%83%BC%E3%83%91%E3%83%BC]] and is colored in #ff8888
+    [キュラ(126)] happens 126 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%AD%E3%83%A5%E3%83%A9]] and is colored in #ff8888
+    [ブルージャイアントタートル(127)] happens 127 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%96%E3%83%AB%E3%83%BC%E3%82%B8%E3%83%A3%E3%82%A4%E3%82%A2%E3%83%B3%E3%83%88%E3%82%BF%E3%83%BC%E3%83%88%E3%83%AB]] and is colored in #ff8888
+    [ウェアーウルフ(127)] happens 127 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%A6%E3%82%A7%E3%82%A2%E3%83%BC%E3%82%A6%E3%83%AB%E3%83%95]] and is colored in #ff8888
+    [キャッスルゴーレム(127)] happens 127 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%AD%E3%83%A3%E3%83%83%E3%82%B9%E3%83%AB%E3%82%B4%E3%83%BC%E3%83%AC%E3%83%A0]] and is colored in #ff8888
+    [看守ボア(127)] happens 127 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E7%9C%8B%E5%AE%88%E3%83%9C%E3%82%A22]] and is colored in #ff8888
+    [看守ライノ(127)] happens 127 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E7%9C%8B%E5%AE%88%E3%83%A9%E3%82%A4%E3%83%8E2]] and is colored in #ff8888
+    [ゴースト(127)] happens 127 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%B4%E3%83%BC%E3%82%B9%E3%83%88]] and is colored in #ff8888
+    [レッドジャイアントタートル(128)] happens 128 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%AC%E3%83%83%E3%83%89%E3%82%B8%E3%83%A3%E3%82%A4%E3%82%A2%E3%83%B3%E3%83%88%E3%82%BF%E3%83%BC%E3%83%88%E3%83%AB]] and is colored in #ff8888
+    [マモン(128)] happens 128 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%9E%E3%83%A2%E3%83%B3]] and is colored in #ff8888
+    [ベルデロス(128)] happens 128 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%99%E3%83%AB%E3%83%87%E3%83%AD%E3%82%B9]] and is colored in #ff8888
+    [ライカンスロープ(129)] happens 129 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%A9%E3%82%A4%E3%82%AB%E3%83%B3%E3%82%B9%E3%83%AD%E3%83%BC%E3%83%97]] and is colored in #ff8888
+    [ヴァンレオン(129)] happens 129 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%B4%E3%82%A1%E3%83%B3%E3%83%AC%E3%82%AA%E3%83%B3]] and is colored in #ff8888
+    [歪んだ闇の中の自分(129)] happens 129 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E6%AD%AA%E3%82%93%E3%81%A0%E9%97%87%E3%81%AE%E4%B8%AD%E3%81%AE%E8%87%AA%E5%88%86]] and is colored in #ff8888
+    [モリランマル(129)] happens 129 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%A2%E3%83%AA%E3%83%A9%E3%83%B3%E3%83%9E%E3%83%AB]] and is colored in #ff8888
+    [ローリングドリオン(129)] happens 129 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%AD%E3%83%BC%E3%83%AA%E3%83%B3%E3%82%B0%E3%83%89%E3%83%AA%E3%82%AA%E3%83%B3]] and is colored in #ff8888
+    [ベリーベア(130)] happens 130 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%99%E3%83%AA%E3%83%BC%E3%83%99%E3%82%A2]] and is colored in #ff8888
+    [姐御(130)] happens 130 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E5%A7%90%E5%BE%A1]] and is colored in #ff8888
+    [ミニガマ(130)] happens 130 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%9F%E3%83%8B%E3%82%AC%E3%83%9E]] and is colored in #ff8888
+    [黄金巨人(130)] happens 130 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E9%BB%84%E9%87%91%E5%B7%A8%E4%BA%BA]] and is colored in #ff8888
+    [マグナス(130)] happens 130 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%9E%E3%82%B0%E3%83%8A%E3%82%B9%28%E3%83%8E%E3%83%BC%E3%83%9E%E3%83%AB%29]] and is colored in #ff8888
+    [シングルプテラス(131)] happens 131 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%B7%E3%83%B3%E3%82%B0%E3%83%AB%E3%83%97%E3%83%86%E3%83%A9%E3%82%B9]] and is colored in #ff8888
+    [クーリゾンビ(132)] happens 132 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%AF%E3%83%BC%E3%83%AA%E3%82%BE%E3%83%B3%E3%83%93]] and is colored in #ff8888
+    [★マイナーゾンビ(132)] happens 132 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%EF%BC%BB%E2%98%85%EF%BC%BD%20%E3%83%9E%E3%82%A4%E3%83%8A%E3%83%BC%E3%82%BE%E3%83%B3%E3%83%93]] and is colored in #ff8888
+    [フライングリオ(132)] happens 132 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%95%E3%83%A9%E3%82%A4%E3%83%B3%E3%82%B0%E3%83%AA%E3%82%AA]] and is colored in #ff8888
+    [トリプルプテラス(133)] happens 133 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%88%E3%83%AA%E3%83%97%E3%83%AB%E3%83%97%E3%83%86%E3%83%A9%E3%82%B9]] and is colored in #ff8888
+    [ファンス(133)] happens 133 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%95%E3%82%A1%E3%83%B3%E3%82%B9]] and is colored in #ff8888
+    [★ラッシュブル(134)] happens 134 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%EF%BC%BB%E2%98%85%EF%BC%BD%20%E3%83%A9%E3%83%83%E3%82%B7%E3%83%A5%E3%83%96%E3%83%AB]] and is colored in #ff8888
+    [レッドワイバーン(134)] happens 134 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%AC%E3%83%83%E3%83%89%E3%83%AF%E3%82%A4%E3%83%90%E3%83%BC%E3%83%B3]] and is colored in #ff8888
+    [リーチ(134)] happens 134 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%AA%E3%83%BC%E3%83%81]] and is colored in #ff8888
+    [バイキングベア(134)] happens 134 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%90%E3%82%A4%E3%82%AD%E3%83%B3%E3%82%B0%E3%83%99%E3%82%A2]] and is colored in #ff8888
+    [アフターロード(135)] happens 135 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%A2%E3%83%95%E3%82%BF%E3%83%BC%E3%83%AD%E3%83%BC%E3%83%89]] and is colored in #ff8888
+    [タルガ(135)] happens 135 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%BF%E3%83%AB%E3%82%AC]] and is colored in #ff8888
+    [怒ったタルガ(135)] happens 135 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E6%80%92%E3%81%A3%E3%81%9F%E3%82%BF%E3%83%AB%E3%82%AC1]] and is colored in #ff8888
+    [スカリオン(135)] happens 135 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%B9%E3%82%AB%E3%83%AA%E3%82%AA%E3%83%B3]] and is colored in #ff8888
+    [怒ったスカリオン(135)] happens 135 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E6%80%92%E3%81%A3%E3%81%9F%E3%82%B9%E3%82%AB%E3%83%AA%E3%82%AA%E3%83%B31]] and is colored in #ff8888
+    [★ファイアブル(136)] happens 136 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%EF%BC%BB%E2%98%85%EF%BC%BD%20%E3%83%95%E3%82%A1%E3%82%A4%E3%82%A2%E3%83%96%E3%83%AB]] and is colored in #ff8888
+    [グリーンリザードマン(136)] happens 136 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%B0%E3%83%AA%E3%83%BC%E3%83%B3%E3%83%AA%E3%82%B6%E3%83%BC%E3%83%89%E3%83%9E%E3%83%B3]] and is colored in #ff8888
+    [時間の目(136)] happens 136 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E6%99%82%E9%96%93%E3%81%AE%E7%9B%AE]] and is colored in #ff8888
+    [オーバーロード(137)] happens 137 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%AA%E3%83%BC%E3%83%90%E3%83%BC%E3%83%AD%E3%83%BC%E3%83%89]] and is colored in #ff8888
+    [ブルーワイバーン(137)] happens 137 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%96%E3%83%AB%E3%83%BC%E3%83%AF%E3%82%A4%E3%83%90%E3%83%BC%E3%83%B3]] and is colored in #ff8888
+    [武林妖僧分身(140)] happens 140 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E6%AD%A6%E6%9E%97%E5%A6%96%E5%83%A7%E5%88%86%E8%BA%AB]] and is colored in #ff8888
+    [異形の師弟(140)] happens 140 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E7%95%B0%E5%BD%A2%E3%81%AE%E5%B8%AB%E5%BC%9F]] and is colored in #ff8888
+    [怒ったタルガ(140)] happens 140 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E6%80%92%E3%81%A3%E3%81%9F%E3%82%BF%E3%83%AB%E3%82%AC2]] and is colored in #ff8888
+    [怒ったスカリオン(140)] happens 140 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E6%80%92%E3%81%A3%E3%81%9F%E3%82%B9%E3%82%AB%E3%83%AA%E3%82%AA%E3%83%B32]] and is colored in #ff8888
+    [ダークワイバーン(141)] happens 141 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%80%E3%83%BC%E3%82%AF%E3%83%AF%E3%82%A4%E3%83%90%E3%83%BC%E3%83%B3]] and is colored in #ff8888
+    [思い出の師弟(142)] happens 142 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E6%80%9D%E3%81%84%E5%87%BA%E3%81%AE%E5%B8%AB%E5%BC%9F]] and is colored in #ff8888
+    [ダークリザードマン(142)] happens 142 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%80%E3%83%BC%E3%82%AF%E3%83%AA%E3%82%B6%E3%83%BC%E3%83%89%E3%83%9E%E3%83%B3]] and is colored in #ff8888
+    [思い出の神官(144)] happens 144 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E6%80%9D%E3%81%84%E5%87%BA%E3%81%AE%E7%A5%9E%E5%AE%98]] and is colored in #ff8888
+    [苔キノコ(144)] happens 144 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E8%8B%94%E3%82%AD%E3%83%8E%E3%82%B3%28%E3%83%91%E3%83%BC%E3%82%AF%29]] and is colored in #ff8888
+    [ノーブルドラン(145)] happens 145 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%8E%E3%83%BC%E3%83%96%E3%83%AB%E3%83%89%E3%83%A9%E3%83%B3]] and is colored in #ff8888
+    [はぐれノーブルドラン(145)] happens 145 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%81%AF%E3%81%90%E3%82%8C%E3%83%8E%E3%83%BC%E3%83%96%E3%83%AB%E3%83%89%E3%83%A9%E3%83%B3]] and is colored in #ff8888
+    [レヴィアタン(145)] happens 145 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%AC%E3%83%B4%E3%82%A3%E3%82%A2%E3%82%BF%E3%83%B3]] and is colored in #ff8888
+    [思い出の守護兵(146)] happens 146 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E6%80%9D%E3%81%84%E5%87%BA%E3%81%AE%E5%AE%88%E8%AD%B7%E5%85%B5]] and is colored in #ff8888
+    [スケルゴサウルス(147)] happens 147 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%B9%E3%82%B1%E3%83%AB%E3%82%B4%E3%82%B5%E3%82%A6%E3%83%AB%E3%82%B9]] and is colored in #ff8888
+    [思い出の守護隊長(148)] happens 148 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E6%80%9D%E3%81%84%E5%87%BA%E3%81%AE%E5%AE%88%E8%AD%B7%E9%9A%8A%E9%95%B7]] and is colored in #ff8888
+    [ノーブルドランゴーレム(150)] happens 150 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%8E%E3%83%BC%E3%83%96%E3%83%AB%E3%83%89%E3%83%A9%E3%83%B3%E3%82%B4%E3%83%BC%E3%83%AC%E3%83%A0]] and is colored in #ff8888
+    [ノーブルドランゴーレム(150)] happens 150 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%8E%E3%83%BC%E3%83%96%E3%83%AB%E3%83%89%E3%83%A9%E3%83%B3%E3%82%B4%E3%83%BC%E3%83%AC%E3%83%A0%28%E6%88%90%E9%95%B7%29]] and is colored in #ff8888
+    [武林妖僧(150)] happens 150 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E6%AD%A6%E6%9E%97%E5%A6%96%E5%83%A7]] and is colored in #ff8888
+    [灰色狼(150)] happens 150 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E7%81%B0%E8%89%B2%E7%8B%BC]] and is colored in #ff8888
+    [ミニビーン(150)] happens 150 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%9F%E3%83%8B%E3%83%93%E3%83%BC%E3%83%B3]] and is colored in #ff8888
+    [武公パンダ(150)] happens 150 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E6%AD%A6%E5%85%AC%E3%83%91%E3%83%B3%E3%83%80]] and is colored in #ff8888
+    [ドド(150)] happens 150 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%89%E3%83%89]] and is colored in #ff8888
+    [後悔の師弟(151)] happens 151 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E5%BE%8C%E6%82%94%E3%81%AE%E5%B8%AB%E5%BC%9F]] and is colored in #ff8888
+    [後悔の神官(153)] happens 153 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E5%BE%8C%E6%82%94%E3%81%AE%E7%A5%9E%E5%AE%98]] and is colored in #ff8888
+    [マスタースケルゴサウルス(153)] happens 153 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%9E%E3%82%B9%E3%82%BF%E3%83%BC%E3%82%B9%E3%82%B1%E3%83%AB%E3%82%B4%E3%82%B5%E3%82%A6%E3%83%AB%E3%82%B9]] and is colored in #ff8888
+    [後悔の守護兵(155)] happens 155 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E5%BE%8C%E6%82%94%E3%81%AE%E5%AE%88%E8%AD%B7%E5%85%B5]] and is colored in #ff8888
+    [後悔の守護隊長(157)] happens 157 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E5%BE%8C%E6%82%94%E3%81%AE%E5%AE%88%E8%AD%B7%E9%9A%8A%E9%95%B7]] and is colored in #ff8888
+    [オダ軍の侍隊長(157)] happens 157 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%AA%E3%83%80%E8%BB%8D%E3%81%AE%E4%BE%8D%E9%9A%8A%E9%95%B7]] and is colored in #ff8888
+    [リーリノフ(159)] happens 159 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%AA%E3%83%BC%E3%83%AA%E3%83%8E%E3%83%95]] and is colored in #ff8888
+    [ロイヤルガード(160)] happens 160 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%AD%E3%82%A4%E3%83%A4%E3%83%AB%E3%82%AC%E3%83%BC%E3%83%89]] and is colored in #ff8888
+    [忘却の師弟(160)] happens 160 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E5%BF%98%E5%8D%B4%E3%81%AE%E5%B8%AB%E5%BC%9F]] and is colored in #ff8888
+    [ホーンテイルの左頭(160)] happens 160 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%9B%E3%83%BC%E3%83%B3%E3%83%86%E3%82%A4%E3%83%AB%E3%81%AE%E5%B7%A6%E9%A0%AD]] and is colored in #ff8888
+    [ホーンテイルの右頭(160)] happens 160 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%9B%E3%83%BC%E3%83%B3%E3%83%86%E3%82%A4%E3%83%AB%E3%81%AE%E5%8F%B3%E9%A0%AD]] and is colored in #ff8888
+    [ホーンテイルの頭(160)] happens 160 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%9B%E3%83%BC%E3%83%B3%E3%83%86%E3%82%A4%E3%83%AB%E3%81%AE%E9%A0%AD%2F%E5%B7%A6]] and is colored in #ff8888
+    [ホーンテイルの頭(160)] happens 160 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%9B%E3%83%BC%E3%83%B3%E3%83%86%E3%82%A4%E3%83%AB%E3%81%AE%E9%A0%AD%2F%E4%B8%AD]] and is colored in #ff8888
+    [ホーンテイルの頭(160)] happens 160 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%9B%E3%83%BC%E3%83%B3%E3%83%86%E3%82%A4%E3%83%AB%E3%81%AE%E9%A0%AD%2F%E5%8F%B3]] and is colored in #ff8888
+    [ホーンテイルの左手(160)] happens 160 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%9B%E3%83%BC%E3%83%B3%E3%83%86%E3%82%A4%E3%83%AB%E3%81%AE%E5%B7%A6%E6%89%8B]] and is colored in #ff8888
+    [ホーンテイルの右手(160)] happens 160 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%9B%E3%83%BC%E3%83%B3%E3%83%86%E3%82%A4%E3%83%AB%E3%81%AE%E5%8F%B3%E6%89%8B]] and is colored in #ff8888
+    [ホーンテイルの羽(160)] happens 160 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%9B%E3%83%BC%E3%83%B3%E3%83%86%E3%82%A4%E3%83%AB%E3%81%AE%E7%BE%BD]] and is colored in #ff8888
+    [ホーンテイルの足(160)] happens 160 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%9B%E3%83%BC%E3%83%B3%E3%83%86%E3%82%A4%E3%83%AB%E3%81%AE%E8%B6%B3]] and is colored in #ff8888
+    [ホーンテイルの尾(160)] happens 160 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%9B%E3%83%BC%E3%83%B3%E3%83%86%E3%82%A4%E3%83%AB%E3%81%AE%E5%B0%BE]] and is colored in #ff8888
+    [ホーンテイル(160)] happens 160 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%9B%E3%83%BC%E3%83%B3%E3%83%86%E3%82%A4%E3%83%AB]] and is colored in #ff8888
+    [カオスホーンテイルの左頭(160)] happens 160 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%AB%E3%82%AA%E3%82%B9%E3%83%9B%E3%83%BC%E3%83%B3%E3%83%86%E3%82%A4%E3%83%AB%E3%81%AE%E5%B7%A6%E9%A0%AD]] and is colored in #ff8888
+    [カオスホーンテイルの右頭(160)] happens 160 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%AB%E3%82%AA%E3%82%B9%E3%83%9B%E3%83%BC%E3%83%B3%E3%83%86%E3%82%A4%E3%83%AB%E3%81%AE%E5%8F%B3%E9%A0%AD]] and is colored in #ff8888
+    [カオスホーンテイルの頭(160)] happens 160 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%AB%E3%82%AA%E3%82%B9%E3%83%9B%E3%83%BC%E3%83%B3%E3%83%86%E3%82%A4%E3%83%AB%E3%81%AE%E9%A0%AD%2F%E5%B7%A6]] and is colored in #ff8888
+    [カオスホーンテイルの頭(160)] happens 160 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%AB%E3%82%AA%E3%82%B9%E3%83%9B%E3%83%BC%E3%83%B3%E3%83%86%E3%82%A4%E3%83%AB%E3%81%AE%E9%A0%AD%2F%E4%B8%AD]] and is colored in #ff8888
+    [カオスホーンテイルの頭(160)] happens 160 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%AB%E3%82%AA%E3%82%B9%E3%83%9B%E3%83%BC%E3%83%B3%E3%83%86%E3%82%A4%E3%83%AB%E3%81%AE%E9%A0%AD%2F%E5%8F%B3]] and is colored in #ff8888
+    [カオスホーンテイルの左手(160)] happens 160 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%AB%E3%82%AA%E3%82%B9%E3%83%9B%E3%83%BC%E3%83%B3%E3%83%86%E3%82%A4%E3%83%AB%E3%81%AE%E5%B7%A6%E6%89%8B]] and is colored in #ff8888
+    [カオスホーンテイルの右手(160)] happens 160 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%AB%E3%82%AA%E3%82%B9%E3%83%9B%E3%83%BC%E3%83%B3%E3%83%86%E3%82%A4%E3%83%AB%E3%81%AE%E5%8F%B3%E6%89%8B]] and is colored in #ff8888
+    [カオスホーンテイルの羽(160)] happens 160 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%AB%E3%82%AA%E3%82%B9%E3%83%9B%E3%83%BC%E3%83%B3%E3%83%86%E3%82%A4%E3%83%AB%E3%81%AE%E7%BE%BD]] and is colored in #ff8888
+    [カオスホーンテイルの足(160)] happens 160 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%AB%E3%82%AA%E3%82%B9%E3%83%9B%E3%83%BC%E3%83%B3%E3%83%86%E3%82%A4%E3%83%AB%E3%81%AE%E8%B6%B3]] and is colored in #ff8888
+    [カオスホーンテイルの尾(160)] happens 160 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%AB%E3%82%AA%E3%82%B9%E3%83%9B%E3%83%BC%E3%83%B3%E3%83%86%E3%82%A4%E3%83%AB%E3%81%AE%E5%B0%BE]] and is colored in #ff8888
+    [カオスホーンテイル(160)] happens 160 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%AB%E3%82%AA%E3%82%B9%E3%83%9B%E3%83%BC%E3%83%B3%E3%83%86%E3%82%A4%E3%83%AB]] and is colored in #ff8888
+    [忘却の神官(162)] happens 162 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E5%BF%98%E5%8D%B4%E3%81%AE%E7%A5%9E%E5%AE%98]] and is colored in #ff8888
+    [変形されたデンデン(162)] happens 162 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E5%A4%89%E5%BD%A2%E3%81%95%E3%82%8C%E3%81%9F%E3%83%87%E3%83%B3%E3%83%87%E3%83%B3]] and is colored in #ff8888
+    [変形されたティノ(163)] happens 163 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E5%A4%89%E5%BD%A2%E3%81%95%E3%82%8C%E3%81%9F%E3%83%86%E3%82%A3%E3%83%8E]] and is colored in #ff8888
+    [変形されたメイプルキノコ(164)] happens 164 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E5%A4%89%E5%BD%A2%E3%81%95%E3%82%8C%E3%81%9F%E3%83%A1%E3%82%A4%E3%83%97%E3%83%AB%E3%82%AD%E3%83%8E%E3%82%B3]] and is colored in #ff8888
+    [忘却の守護兵(164)] happens 164 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E5%BF%98%E5%8D%B4%E3%81%AE%E5%AE%88%E8%AD%B7%E5%85%B5]] and is colored in #ff8888
+    [堕落した時間の守護隊長(164)] happens 164 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E5%A0%95%E8%90%BD%E3%81%97%E3%81%9F%E6%99%82%E9%96%93%E3%81%AE%E5%AE%88%E8%AD%B7%E9%9A%8A%E9%95%B7]] and is colored in #ff8888
+    [変形されたティル(165)] happens 165 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E5%A4%89%E5%BD%A2%E3%81%95%E3%82%8C%E3%81%9F%E3%83%86%E3%82%A3%E3%83%AB]] and is colored in #ff8888
+    [忘却の守護隊長(166)] happens 166 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E5%BF%98%E5%8D%B4%E3%81%AE%E5%AE%88%E8%AD%B7%E9%9A%8A%E9%95%B7]] and is colored in #ff8888
+    [堕落した時間の神官(166)] happens 166 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E5%A0%95%E8%90%BD%E3%81%97%E3%81%9F%E6%99%82%E9%96%93%E3%81%AE%E7%A5%9E%E5%AE%98]] and is colored in #ff8888
+    [変形されたスライム(166)] happens 166 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E5%A4%89%E5%BD%A2%E3%81%95%E3%82%8C%E3%81%9F%E3%82%B9%E3%83%A9%E3%82%A4%E3%83%A0]] and is colored in #ff8888
+    [手下A(166)] happens 166 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E6%89%8B%E4%B8%8BA]] and is colored in #ff8888
+    [手下B(166)] happens 166 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E6%89%8B%E4%B8%8BB]] and is colored in #ff8888
+    [手下C(167)] happens 167 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E6%89%8B%E4%B8%8BC]] and is colored in #ff8888
+    [手下D(167)] happens 167 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E6%89%8B%E4%B8%8BD]] and is colored in #ff8888
+    [変形されたティグル(167)] happens 167 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E5%A4%89%E5%BD%A2%E3%81%95%E3%82%8C%E3%81%9F%E3%83%86%E3%82%A3%E3%82%B0%E3%83%AB]] and is colored in #ff8888
+    [ライカ(168)] happens 168 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%A9%E3%82%A4%E3%82%AB]] and is colored in #ff8888
+    [幹部A(168)] happens 168 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E5%B9%B9%E9%83%A8A]] and is colored in #ff8888
+    [幹部B(168)] happens 168 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E5%B9%B9%E9%83%A8B]] and is colored in #ff8888
+    [ボディーガードA(168)] happens 168 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%9C%E3%83%87%E3%82%A3%E3%83%BC%E3%82%AC%E3%83%BC%E3%83%89A]] and is colored in #ff8888
+    [親分(168)] happens 168 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E8%A6%AA%E5%88%86]] and is colored in #ff8888
+    [正騎士A(168)] happens 168 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E6%AD%A3%E9%A8%8E%E5%A3%ABA]] and is colored in #ff8888
+    [変形されたリボンピグ(168)] happens 168 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E5%A4%89%E5%BD%A2%E3%81%95%E3%82%8C%E3%81%9F%E3%83%AA%E3%83%9C%E3%83%B3%E3%83%94%E3%82%B0]] and is colored in #ff8888
+    [ソウル(169)] happens 169 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%BD%E3%82%A6%E3%83%AB]] and is colored in #ff8888
+    [ボディーガードB(169)] happens 169 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%9C%E3%83%87%E3%82%A3%E3%83%BC%E3%82%AC%E3%83%BC%E3%83%89B]] and is colored in #ff8888
+    [正騎士B(170)] happens 170 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E6%AD%A3%E9%A8%8E%E5%A3%ABB]] and is colored in #ff8888
+    [アカイラム(170)] happens 170 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%A2%E3%82%AB%E3%82%A4%E3%83%A9%E3%83%A0]] and is colored in #ff8888
+    [姐御(170)] happens 170 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E5%A7%90%E5%BE%A1]] and is colored in #ff8888
+    [大親分(170)] happens 170 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E5%A4%A7%E8%A6%AA%E5%88%86]] and is colored in #ff8888
+    [下忍(170)] happens 170 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E4%B8%8B%E5%BF%8D]] and is colored in #ff8888
+    [中忍(170)] happens 170 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E4%B8%AD%E5%BF%8D]] and is colored in #ff8888
+    [フレーム(171)] happens 171 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%95%E3%83%AC%E3%83%BC%E3%83%A0]] and is colored in #ff8888
+    [正騎士C(172)] happens 172 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E6%AD%A3%E9%A8%8E%E5%A3%ABC]] and is colored in #ff8888
+    [上忍(172)] happens 172 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E4%B8%8A%E5%BF%8D]] and is colored in #ff8888
+    [忍頭(172)] happens 172 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E5%BF%8D%E9%A0%AD]] and is colored in #ff8888
+    [ストーム(173)] happens 173 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%B9%E3%83%88%E3%83%BC%E3%83%A0]] and is colored in #ff8888
+    [正騎士D(174)] happens 174 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E6%AD%A3%E9%A8%8E%E5%A3%ABD]] and is colored in #ff8888
+    [足軽(174)] happens 174 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E8%B6%B3%E8%BB%BD]] and is colored in #ff8888
+    [甲冑武者(174)] happens 174 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E7%94%B2%E5%86%91%E6%AD%A6%E8%80%85]] and is colored in #ff8888
+    [ダークネス(175)] happens 175 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%80%E3%83%BC%E3%82%AF%E3%83%8D%E3%82%B9]] and is colored in #ff8888
+    [正騎士E(176)] happens 176 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E6%AD%A3%E9%A8%8E%E5%A3%ABE]] and is colored in #ff8888
+    [監視兵(176)] happens 176 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E7%9B%A3%E8%A6%96%E5%85%B5]] and is colored in #ff8888
+    [くノ一(176)] happens 176 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%81%8F%E3%83%8E%E4%B8%80]] and is colored in #ff8888
+    [上級騎士A(177)] happens 177 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E4%B8%8A%E7%B4%9A%E9%A8%8E%E5%A3%ABA]] and is colored in #ff8888
+    [ライトニング(177)] happens 177 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%A9%E3%82%A4%E3%83%88%E3%83%8B%E3%83%B3%E3%82%B0]] and is colored in #ff8888
+    [上級騎士B(179)] happens 179 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E4%B8%8A%E7%B4%9A%E9%A8%8E%E5%A3%ABB]] and is colored in #ff8888
+    [殿様(180)] happens 180 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E6%AE%BF%E6%A7%98]] and is colored in #ff8888
+    [大ガマガエル(180)] happens 180 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E5%A4%A7%E3%82%AC%E3%83%9E%E3%82%AC%E3%82%A8%E3%83%AB]] and is colored in #ff8888
+    [アリエル(180)] happens 180 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%A2%E3%83%AA%E3%82%A8%E3%83%AB]] and is colored in #ff8888
+    [賢者ソロモン(180)] happens 180 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E8%B3%A2%E8%80%85%E3%82%BD%E3%83%AD%E3%83%A2%E3%83%B3]] and is colored in #ff8888
+    [フィギン(180)] happens 180 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%95%E3%82%A3%E3%82%AE%E3%83%B3]] and is colored in #ff8888
+    [ムニン(180)] happens 180 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%A0%E3%83%8B%E3%83%B3]] and is colored in #ff8888
+    [賢者レックス(180)] happens 180 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E8%B3%A2%E8%80%85%E3%83%AC%E3%83%83%E3%82%AF%E3%82%B9]] and is colored in #ff8888
+    [ピンクビーン(180)] happens 180 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%94%E3%83%B3%E3%82%AF%E3%83%93%E3%83%BC%E3%83%B3%2F%E7%9F%B3%E5%83%8F%E6%88%A6]] and is colored in #ff8888
+    [ピンクビーン(180)] happens 180 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%94%E3%83%B3%E3%82%AF%E3%83%93%E3%83%BC%E3%83%B3]] and is colored in #ff8888
+    [カオスピンクビーン(180)] happens 180 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%AB%E3%82%AA%E3%82%B9%E3%83%94%E3%83%B3%E3%82%AF%E3%83%93%E3%83%BC%E3%83%B3%2F%E7%9F%B3%E5%83%8F%E6%88%A6]] and is colored in #ff8888
+    [カオスジャクム腕 1(180)] happens 180 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%AB%E3%82%AA%E3%82%B9%E3%82%B8%E3%83%A3%E3%82%AF%E3%83%A0%E8%85%951]] and is colored in #ff8888
+    [カオスジャクム腕 2(180)] happens 180 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%AB%E3%82%AA%E3%82%B9%E3%82%B8%E3%83%A3%E3%82%AF%E3%83%A0%E8%85%952]] and is colored in #ff8888
+    [カオスジャクム腕 3(180)] happens 180 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%AB%E3%82%AA%E3%82%B9%E3%82%B8%E3%83%A3%E3%82%AF%E3%83%A0%E8%85%953]] and is colored in #ff8888
+    [カオスジャクム腕 4(180)] happens 180 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%AB%E3%82%AA%E3%82%B9%E3%82%B8%E3%83%A3%E3%82%AF%E3%83%A0%E8%85%954]] and is colored in #ff8888
+    [カオスジャクム腕 5(180)] happens 180 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%AB%E3%82%AA%E3%82%B9%E3%82%B8%E3%83%A3%E3%82%AF%E3%83%A0%E8%85%955]] and is colored in #ff8888
+    [カオスジャクム腕 6(180)] happens 180 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%AB%E3%82%AA%E3%82%B9%E3%82%B8%E3%83%A3%E3%82%AF%E3%83%A0%E8%85%956]] and is colored in #ff8888
+    [カオスジャクム腕 7(180)] happens 180 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%AB%E3%82%AA%E3%82%B9%E3%82%B8%E3%83%A3%E3%82%AF%E3%83%A0%E8%85%957]] and is colored in #ff8888
+    [カオスジャクム腕 8(180)] happens 180 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%AB%E3%82%AA%E3%82%B9%E3%82%B8%E3%83%A3%E3%82%AF%E3%83%A0%E8%85%958]] and is colored in #ff8888
+    [カオスジャクム(180)] happens 180 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%AB%E3%82%AA%E3%82%B9%E3%82%B8%E3%83%A3%E3%82%AF%E3%83%A0]] and is colored in #ff8888
+    [上級騎士C(180)] happens 180 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E4%B8%8A%E7%B4%9A%E9%A8%8E%E5%A3%ABC]] and is colored in #ff8888
+    [イフリート(180)] happens 180 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%A4%E3%83%95%E3%83%AA%E3%83%BC%E3%83%88]] and is colored in #ff8888
+    [上級騎士D(182)] happens 182 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E4%B8%8A%E7%B4%9A%E9%A8%8E%E5%A3%ABD]] and is colored in #ff8888
+    [上級騎士E(184)] happens 184 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E4%B8%8A%E7%B4%9A%E9%A8%8E%E5%A3%ABE]] and is colored in #ff8888
+    [精鋭スケルトンナイト(185)] happens 185 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E7%B2%BE%E9%8B%AD%E3%82%B9%E3%82%B1%E3%83%AB%E3%83%88%E3%83%B3%E3%83%8A%E3%82%A4%E3%83%881%28%E3%83%8F%E3%83%BC%E3%83%89%29]] and is colored in #ff8888
+    [精鋭スケルトンナイト(185)] happens 185 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E7%B2%BE%E9%8B%AD%E3%82%B9%E3%82%B1%E3%83%AB%E3%83%88%E3%83%B3%E3%83%8A%E3%82%A4%E3%83%882%28%E3%83%8F%E3%83%BC%E3%83%89%29]] and is colored in #ff8888
+    [スケルトンナイト(185)] happens 185 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%B9%E3%82%B1%E3%83%AB%E3%83%88%E3%83%B3%E3%83%8A%E3%82%A4%E3%83%88]] and is colored in #ff8888
+    [ミハエル(188)] happens 188 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%9F%E3%83%8F%E3%82%A8%E3%83%AB]] and is colored in #ff8888
+    [オズ(188)] happens 188 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%AA%E3%82%BA]] and is colored in #ff8888
+    [イリーナ(188)] happens 188 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%A4%E3%83%AA%E3%83%BC%E3%83%8A]] and is colored in #ff8888
+    [イカルト(188)] happens 188 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%A4%E3%82%AB%E3%83%AB%E3%83%88]] and is colored in #ff8888
+    [ホークアイ(188)] happens 188 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%9B%E3%83%BC%E3%82%AF%E3%82%A2%E3%82%A4]] and is colored in #ff8888
+    [ブラッドトゥース(188)] happens 188 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%96%E3%83%A9%E3%83%83%E3%83%89%E3%83%88%E3%82%A5%E3%83%BC%E3%82%B91%28%E3%83%8F%E3%83%BC%E3%83%89%29]] and is colored in #ff8888
+    [ブラッドトゥース(188)] happens 188 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%96%E3%83%A9%E3%83%83%E3%83%89%E3%83%88%E3%82%A5%E3%83%BC%E3%82%B92%28%E3%83%8F%E3%83%BC%E3%83%89%29]] and is colored in #ff8888
+    [デッドリーアルター(188)] happens 188 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%87%E3%83%83%E3%83%89%E3%83%AA%E3%83%BC%E3%82%A2%E3%83%AB%E3%82%BF%E3%83%BC%28%E3%83%8F%E3%83%BC%E3%83%89%29]] and is colored in #ff8888
+    [アスワンの幽霊(188)] happens 188 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%A2%E3%82%B9%E3%83%AF%E3%83%B3%E3%81%AE%E5%B9%BD%E9%9C%8A]] and is colored in #ff8888
+    [神獣(190)] happens 190 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E7%A5%9E%E7%8D%A3]] and is colored in #ff8888
+    [シグナス(190)] happens 190 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%B7%E3%82%B0%E3%83%8A%E3%82%B9]] and is colored in #ff8888
+    [ヒルラ(190)] happens 190 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%92%E3%83%AB%E3%83%A9%28%E3%83%8F%E3%83%BC%E3%83%89%29]] and is colored in #ff8888
+    [ヒルラ(白髪モード)(190)] happens 190 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%92%E3%83%AB%E3%83%A9%28%E7%99%BD%E9%AB%AA%E3%83%A2%E3%83%BC%E3%83%89%29]] and is colored in #ff8888
+    [混沌の賢者ソロモン(190)] happens 190 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E6%B7%B7%E6%B2%8C%E3%81%AE%E8%B3%A2%E8%80%85%E3%82%BD%E3%83%AD%E3%83%A2%E3%83%B3]] and is colored in #ff8888
+    [混沌の賢者レックス(190)] happens 190 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E6%B7%B7%E6%B2%8C%E3%81%AE%E8%B3%A2%E8%80%85%E3%83%AC%E3%83%83%E3%82%AF%E3%82%B9]] and is colored in #ff8888
+    [カオスフィギン(190)] happens 190 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%AB%E3%82%AA%E3%82%B9%E3%83%95%E3%82%A3%E3%82%AE%E3%83%B3]] and is colored in #ff8888
+    [カオスムニン(190)] happens 190 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%AB%E3%82%AA%E3%82%B9%E3%83%A0%E3%83%8B%E3%83%B3]] and is colored in #ff8888
+    [カオスミニビーン(190)] happens 190 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%AB%E3%82%AA%E3%82%B9%E3%83%9F%E3%83%8B%E3%83%93%E3%83%BC%E3%83%B3]] and is colored in #ff8888
+    [カオスアリエル(190)] happens 190 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%AB%E3%82%AA%E3%82%B9%E3%82%A2%E3%83%AA%E3%82%A8%E3%83%AB]] and is colored in #ff8888
+    [カオスピンクビーン(190)] happens 190 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%AB%E3%82%AA%E3%82%B9%E3%83%94%E3%83%B3%E3%82%AF%E3%83%93%E3%83%BC%E3%83%B3]] and is colored in #ff8888
+    [マグナス(190)] happens 190 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%83%9E%E3%82%B0%E3%83%8A%E3%82%B9%28%E3%83%8F%E3%83%BC%E3%83%89%29]] and is colored in #ff8888
+    [変形されたスタンプ(190)] happens 190 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E5%A4%89%E5%BD%A2%E3%81%95%E3%82%8C%E3%81%9F%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%97]] and is colored in #ff8888
+    [変形されたＤ.スタンプ(191)] happens 191 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E5%A4%89%E5%BD%A2%E3%81%95%E3%82%8C%E3%81%9F%EF%BC%A4.%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%97]] and is colored in #ff8888
+    [変形されたハイスタンプ(192)] happens 192 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E5%A4%89%E5%BD%A2%E3%81%95%E3%82%8C%E3%81%9F%E3%83%8F%E3%82%A4%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%97]] and is colored in #ff8888
+    [変形されたワイルドボア(192)] happens 192 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E5%A4%89%E5%BD%A2%E3%81%95%E3%82%8C%E3%81%9F%E3%83%AF%E3%82%A4%E3%83%AB%E3%83%89%E3%83%9C%E3%82%A2]] and is colored in #ff8888
+    [変形されたアイアンボア(193)] happens 193 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E5%A4%89%E5%BD%A2%E3%81%95%E3%82%8C%E3%81%9F%E3%82%A2%E3%82%A4%E3%82%A2%E3%83%B3%E3%83%9C%E3%82%A2]] and is colored in #ff8888
+    [変形されたファイアボア(194)] happens 194 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E5%A4%89%E5%BD%A2%E3%81%95%E3%82%8C%E3%81%9F%E3%83%95%E3%82%A1%E3%82%A4%E3%82%A2%E3%83%9C%E3%82%A2]] and is colored in #ff8888
+    [変形されたウッドマスク(194)] happens 194 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E5%A4%89%E5%BD%A2%E3%81%95%E3%82%8C%E3%81%9F%E3%82%A6%E3%83%83%E3%83%89%E3%83%9E%E3%82%B9%E3%82%AF]] and is colored in #ff8888
+    [変形されたストーンマスク(195)] happens 195 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E5%A4%89%E5%BD%A2%E3%81%95%E3%82%8C%E3%81%9F%E3%82%B9%E3%83%88%E3%83%BC%E3%83%B3%E3%83%9E%E3%82%B9%E3%82%AF]] and is colored in #ff8888
+    [変形されたスチールマスク(196)] happens 196 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E5%A4%89%E5%BD%A2%E3%81%95%E3%82%8C%E3%81%9F%E3%82%B9%E3%83%81%E3%83%BC%E3%83%AB%E3%83%9E%E3%82%B9%E3%82%AF]] and is colored in #ff8888
+    [エンシェントゴーレム(196)] happens 196 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%A8%E3%83%B3%E3%82%B7%E3%82%A7%E3%83%B3%E3%83%88%E3%82%B4%E3%83%BC%E3%83%AC%E3%83%A0]] and is colored in #ff8888
+    [エンシェントダークゴーレム(197)] happens 197 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%A8%E3%83%B3%E3%82%B7%E3%82%A7%E3%83%B3%E3%83%88%E3%83%80%E3%83%BC%E3%82%AF%E3%82%B4%E3%83%BC%E3%83%AC%E3%83%A0]] and is colored in #ff8888
+    [エンシェントジョイントゴーレム(198)] happens 198 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E3%82%A8%E3%83%B3%E3%82%B7%E3%82%A7%E3%83%B3%E3%83%88%E3%82%B8%E3%83%A7%E3%82%A4%E3%83%B3%E3%83%88%E3%82%B4%E3%83%BC%E3%83%AC%E3%83%A0]] and is colored in #ff8888
+    [変形されたスタンピ(200)] happens 200 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E5%A4%89%E5%BD%A2%E3%81%95%E3%82%8C%E3%81%9F%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%94]] and is colored in #ff8888
+    [喜びのエルダス(200)] happens 200 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E5%96%9C%E3%81%B3%E3%81%AE%E3%82%A8%E3%83%AB%E3%83%80%E3%82%B9]] and is colored in #ff8888
+    [怒りのエルダス(201)] happens 201 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E6%80%92%E3%82%8A%E3%81%AE%E3%82%A8%E3%83%AB%E3%83%80%E3%82%B9]] and is colored in #ff8888
+    [悲しみのエルダス(202)] happens 202 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E6%82%B2%E3%81%97%E3%81%BF%E3%81%AE%E3%82%A8%E3%83%AB%E3%83%80%E3%82%B9]] and is colored in #ff8888
+    [楽しみのエルダス(203)] happens 203 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E6%A5%BD%E3%81%97%E3%81%BF%E3%81%AE%E3%82%A8%E3%83%AB%E3%83%80%E3%82%B9]] and is colored in #ff8888
+    [岩石のエルダス(204)] happens 204 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E5%B2%A9%E7%9F%B3%E3%81%AE%E3%82%A8%E3%83%AB%E3%83%80%E3%82%B9]] and is colored in #ff8888
+    [火炎のエルダス(205)] happens 205 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E7%81%AB%E7%82%8E%E3%81%AE%E3%82%A8%E3%83%AB%E3%83%80%E3%82%B9]] and is colored in #ff8888
+    [強靭な魂のエルダス(206)] happens 206 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E5%BC%B7%E9%9D%AD%E3%81%AA%E9%AD%82%E3%81%AE%E3%82%A8%E3%83%AB%E3%83%80%E3%82%B9]] and is colored in #ff8888
+    [安息のエルダス(207)] happens 207 day after [Zero]s end and links to [[http://maplesonar.com/wiki/index.php?%E5%AE%89%E6%81%AF%E3%81%AE%E3%82%A8%E3%83%AB%E3%83%80%E3%82%B9]] and is colored in #ff8888
+
+
+@enduml
